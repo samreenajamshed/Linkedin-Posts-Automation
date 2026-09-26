@@ -112,7 +112,7 @@ def pick_palette(spec):
     name = spec.get("palette")
     if name in PALETTES:
         return name
-    if name == "random":
+    if name in ("random", "mix"):
         return random.choice(PALETTE_ORDER)
     pkt = (datetime.datetime.utcnow() + datetime.timedelta(hours=5)).date()
     # Two visual slots per week (Wed = slot 0, Fri+ = slot 1): every visual
@@ -196,8 +196,18 @@ def main():
             print(os.path.join(out, "infographic.png"))
         else:
             slides = spec["slides"]; pngs = []
+            # "palette": "mix" gives every inner slide its own palette (random order,
+            # no repeats); cover and final slide share the first one so the deck still
+            # opens and closes as a set.
+            if spec.get("palette") == "mix":
+                import random
+                order = [pal] + random.sample([p for p in PALETTE_ORDER if p != pal], len(PALETTE_ORDER) - 1)
+                pals = [order[0] if i in (0, len(slides) - 1) else order[1 + (i - 1) % (len(order) - 1)] for i in range(len(slides))]
+                print("SLIDE_PALETTES:", ",".join(pals))
+            else:
+                pals = [pal] * len(slides)
             for i, sl in enumerate(slides):
-                f = os.path.join(out, f"slide-{i+1:02d}.png"); shot(pg, slide(sl, i, len(slides)), f, pal); pngs.append(f)
+                f = os.path.join(out, f"slide-{i+1:02d}.png"); shot(pg, slide(sl, i, len(slides)), f, pals[i]); pngs.append(f)
             import base64
             pdf = os.path.join(out, spec.get("filename", "carousel") + ".pdf")
             imgs = "".join(f'<img src="data:image/png;base64,{base64.b64encode(open(f,"rb").read()).decode()}" style="display:block;width:1080px;height:1350px;page-break-after:always">' for f in pngs)
