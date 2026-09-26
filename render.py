@@ -14,6 +14,7 @@ from playwright.sync_api import sync_playwright
 W, H = 1080, 1350
 HANDLE = "Samreena Jamshed"
 ROLE = "AI Engineer · Data &amp; AI Solutions Architect"
+INITIALS = "SJ"
 
 CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
@@ -131,7 +132,7 @@ def e(s):
     return "".join(f"<em>{p}</em>" if i % 2 else p for i, p in enumerate(parts))
 
 def footer(right):
-    return f"""<div class="footer"><div class="who"><div class="avatar">SJ</div>
+    return f"""<div class="footer"><div class="who"><div class="avatar">{INITIALS}</div>
 <div><div class="name">{HANDLE}</div><div class="role">{ROLE}</div></div></div>{right}</div>"""
 
 def infographic(s):
@@ -177,6 +178,12 @@ def shot(pw_page, inner, path, pal):
 
 def main():
     spec = json.load(open(sys.argv[1]))
+    # Optional author override, e.g. {"author": {"name": "Hammad Ulhaq", "role": "Head of Supply Chain", "initials": "HU"}}
+    global HANDLE, ROLE, INITIALS
+    a = spec.get("author") or {}
+    if a.get("name"): HANDLE = html.escape(a["name"])
+    if a.get("role"): ROLE = html.escape(a["role"])
+    if a.get("initials"): INITIALS = html.escape(a["initials"])
     pal = pick_palette(spec)
     print("PALETTE:", pal)
     out = sys.argv[2]; os.makedirs(out, exist_ok=True)
