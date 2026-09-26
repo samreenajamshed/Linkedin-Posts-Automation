@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render a LinkedIn visual and host it in this GitHub repo.
 
-Usage: GH_TOKEN=... python3 publish.py spec.json YYYY-MM-DD
+Usage: GH_TOKEN=... python3 publish.py spec.json YYYY-MM-DD [prefix]   (prefix defaults to "posts"; Hammad uses "posts/hammad")
 Fetches render.py from the repo, renders into ./out, uploads every output
 file to posts/<date>/ and prints one JSON line with the public raw URLs.
 """
@@ -36,6 +36,7 @@ def upload(local, path, msg):
 
 def main():
     spec, day = sys.argv[1], sys.argv[2]
+    prefix = sys.argv[3] if len(sys.argv) > 3 else "posts"
     urllib.request.urlretrieve(f"{RAW}/render.py", "render.py")
     res = subprocess.run([sys.executable, "render.py", spec, "out"], capture_output=True, text=True)
     if res.returncode != 0:
@@ -44,8 +45,8 @@ def main():
     palette = next((l.split(":", 1)[1].strip() for l in res.stdout.splitlines() if l.startswith("PALETTE:")), None)
     urls = {}
     for f in sorted(os.listdir("out")):
-        urls[f] = upload(os.path.join("out", f), f"posts/{day}/{f}", f"Visual for {day}: {f}")
-    upload(spec, f"posts/{day}/spec.json", f"Spec for {day}")
+        urls[f] = upload(os.path.join("out", f), f"{prefix}/{day}/{f}", f"Visual for {day}: {f}")
+    upload(spec, f"{prefix}/{day}/spec.json", f"Spec for {day}")
     print(json.dumps({"ok": True, "palette": palette, "urls": urls}))
 
 
