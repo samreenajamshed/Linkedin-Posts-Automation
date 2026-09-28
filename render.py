@@ -3,7 +3,7 @@
 
 Usage:  python3 render.py spec.json OUT_DIR
 Spec types:
-  {"type":"infographic","layout":"flow"|"compare"|"stat", ...}  -> OUT_DIR/infographic.png (1080x1350)
+  {"type":"infographic","layout":"flow"|"compare"|"stat"|"howto", ...}  -> OUT_DIR/infographic.png (1080x1350)
   {"type":"carousel","slides":[...]}                              -> OUT_DIR/slide-NN.png + carousel.pdf
 Optional "palette": one of PALETTES or "random"; default rotates daily.
 See SKILL.md for the full field list.
@@ -56,9 +56,11 @@ h1 em{font-style:normal;color:var(--accentText)}
 .cmp{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .col{border-radius:24px;padding:30px;background:var(--card);border:2px solid var(--line)}
 .col.good{border-color:var(--accent);background:var(--soft)}
-.col h3{font-size:32px;font-weight:900;margin-bottom:18px}
+.col h3{font-size:36px;font-weight:900;margin-bottom:22px}
 .col.bad h3{color:var(--muted)}.col.good h3{color:var(--accentText)}
-.col li{list-style:none;font-size:24px;line-height:1.35;padding:12px 0;border-top:1px solid var(--line)}
+.col li{list-style:none;font-size:28px;line-height:1.35;padding:20px 0 20px 40px;border-top:1px solid var(--line);position:relative}
+.col.bad li:before{content:'✕';position:absolute;left:0;top:20px;color:var(--muted);font-weight:900}
+.col.good li:before{content:'✓';position:absolute;left:0;top:20px;color:var(--accentText);font-weight:900}
 .col li:first-of-type{border-top:none}
 /* stat */
 .big{font-size:230px;font-weight:900;letter-spacing:-8px;line-height:1;background:linear-gradient(135deg,var(--accent),var(--dark2));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -81,6 +83,23 @@ pre{margin-top:30px;background:var(--dark);color:var(--soft);font-family:'JetBra
 .swipe{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:22px;color:var(--accentText);font-weight:700}
 .page.dark .swipe{color:var(--onDark)}
 .cover h1{font-size:88px}
+/* howto: "copy this prompt" card for AI-at-work posts */
+.who-for{display:inline-flex;align-items:center;gap:10px;background:var(--dark2);color:#fff;font-weight:800;font-size:22px;padding:10px 20px;border-radius:999px;margin-bottom:22px;align-self:flex-start}
+.steps{display:flex;flex-direction:column;gap:14px}
+.step{display:flex;gap:18px;align-items:center;background:var(--card);border:2px solid var(--line);border-radius:18px;padding:16px 22px}
+.step .num{min-width:48px;height:48px;border-radius:14px;background:var(--accent);color:#fff;font-weight:900;font-size:24px;display:flex;align-items:center;justify-content:center}
+.step div.t{font-size:27px;line-height:1.3;font-weight:700}
+.prompt{margin-top:26px;background:linear-gradient(145deg,var(--dark) 0%,var(--dark2) 100%);border-radius:26px;padding:26px 30px 30px;color:#fff;box-shadow:0 14px 34px rgba(15,23,42,.18)}
+.prompt .ph{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.prompt .lbl{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:20px;font-weight:700;letter-spacing:2px;color:var(--onDark)}
+.prompt .copy{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:18px;color:rgba(255,255,255,.7);border:1.5px solid rgba(255,255,255,.3);padding:5px 14px;border-radius:10px}
+.prompt .txt{font-size:27px;line-height:1.45;font-weight:500}
+.prompt .txt span.v{color:var(--onDark);font-weight:800}
+.tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px}
+.tools .lb{font-size:20px;color:var(--muted);font-weight:700;margin-right:4px}
+.tip{margin-top:20px;font-size:24px;line-height:1.4;padding:18px 22px;border-left:6px solid var(--accent);background:var(--soft);border-radius:0 14px 14px 0}
+.tip b{color:var(--accentText)}
+.warn{margin-top:14px;font-size:19px;color:var(--muted)}
 """
 
 # ---------------------------------------------------------------------------
@@ -115,11 +134,9 @@ def pick_palette(spec):
     if name in ("random", "mix"):
         return random.choice(PALETTE_ORDER)
     pkt = (datetime.datetime.utcnow() + datetime.timedelta(hours=5)).date()
-    # Two visual slots per week (Wed = slot 0, Fri+ = slot 1): every visual
-    # gets the next palette in order, so all 12 are used before any repeats.
-    week = (pkt - datetime.date(2026, 1, 5)).days // 7
-    slot = 1 if pkt.weekday() >= 4 else 0
-    return PALETTE_ORDER[(week * 2 + slot) % len(PALETTE_ORDER)]
+    # One palette per calendar day (PKT), in order: consecutive days always
+    # differ and all 12 are used before any repeats (visuals run Mon-Fri).
+    return PALETTE_ORDER[(pkt - datetime.date(2026, 1, 5)).days % len(PALETTE_ORDER)]
 
 def palette_vars(p):
     return ":root{" + ";".join(f"--{k}:{v}" for k, v in PALETTES[p].items()) + "}"
@@ -153,9 +170,22 @@ def infographic(s):
         L, R = s["left"], s["right"]
         body = f"""<div class="cmp"><div class="col bad"><h3>{e(L['title'])}</h3><ul>{''.join(f'<li>{e(x)}</li>' for x in L['items'])}</ul></div>
 <div class="col good"><h3>{e(R['title'])}</h3><ul>{''.join(f'<li>{e(x)}</li>' for x in R['items'])}</ul></div></div>"""
+    elif lay == "howto":
+        import re as _re
+        steps = "".join(f'<div class="step"><div class="num">{i+1}</div><div class="t">{e(x)}</div></div>' for i, x in enumerate(s.get("steps", [])))
+        ptxt = html.escape(str(s.get("prompt", "")))
+        ptxt = _re.sub(r"\[([^\]]+)\]", r'<span class="v">[\1]</span>', ptxt).replace("\n", "<br>")
+        tools = "".join(f'<span class="chip">{e(t)}</span>' for t in s.get("tools", []))
+        body = (f'<div class="steps">{steps}</div>' if steps else "") + \
+            f'<div class="prompt"><div class="ph"><div class="lbl">{e(s.get("prompt_label","COPY THIS PROMPT"))}</div><div class="copy">⧉ copy</div></div><div class="txt">{ptxt}</div></div>' + \
+            (f'<div class="tools"><span class="lb">Works in:</span>{tools}</div>' if tools else "") + \
+            (f'<div class="tip"><b>Why it works:</b> {e(s["tip"])}</div>' if s.get("tip") else "") + \
+            (f'<div class="warn">🔒 {e(s["warn"])}</div>' if s.get("warn") else "")
     else:  # stat
         body = f"""<div class="big">{e(s['stat'])}</div><div class="statline">{e(s['statline'])}</div>
 <div class="points">{''.join(f'<div class="pt">{e(p)}</div>' for p in s.get('points', []))}</div>"""
+    if s.get("audience"):
+        head = f'<div class="who-for">{e(s["audience"])}</div>' + head
     tk = f'<div class="takeaway">{e(s["takeaway"]).replace("<em>","<b>").replace("</em>","</b>")}</div>' if s.get("takeaway") else ""
     src = f'<div class="source">Source: {e(s["source"])}</div>' if s.get("source") else ""
     return f"""<div class="page">{head}<div class="content">{body}{tk}{src}</div>{footer('<div class="tag">save ↗ share ↻</div>')}</div>"""
