@@ -3,7 +3,7 @@
 
 Usage:  python3 render.py spec.json OUT_DIR
 Spec types:
-  {"type":"infographic","layout":"flow"|"compare"|"stat"|"howto", ...}  -> OUT_DIR/infographic.png (1080x1350)
+  {"type":"infographic","layout":"flow"|"compare"|"stat"|"howto"|"tiers", ...}  -> OUT_DIR/infographic.png (1080x1350)
   {"type":"carousel","slides":[...]}                              -> OUT_DIR/slide-NN.png + carousel.pdf
 Optional "palette": one of PALETTES or "random"; default rotates daily.
 See SKILL.md for the full field list.
@@ -100,6 +100,33 @@ pre{margin-top:30px;background:var(--dark);color:var(--soft);font-family:'JetBra
 .tip{margin-top:20px;font-size:24px;line-height:1.4;padding:18px 22px;border-left:6px solid var(--accent);background:var(--soft);border-radius:0 14px 14px 0}
 .tip b{color:var(--accentText)}
 .warn{margin-top:14px;font-size:19px;color:var(--muted)}
+/* tiers: stacked levels, each with a mini UI mockup (e.g. "BI. BI + AI. AI + BI.") */
+.tiers{display:flex;flex-direction:column;gap:20px}
+.tier{display:grid;grid-template-columns:1fr 430px;gap:26px;align-items:center;background:var(--card);border:2px solid var(--line);border-left:8px solid var(--tc);border-radius:20px;padding:24px 26px 24px 28px;box-shadow:0 6px 18px rgba(15,23,42,.05)}
+.tier .tn{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:18px;color:var(--tc);font-weight:700;margin-right:12px;vertical-align:middle}
+.tier h3{font-size:42px;font-weight:900;letter-spacing:-.8px;line-height:1.1}
+.tier .tl{font-size:25px;font-weight:800;color:var(--tc);margin-top:8px}
+.tier .ln{font-size:22px;line-height:1.45;color:var(--ink);opacity:.82;margin-top:6px}
+.mock{background:var(--bg);border:2px solid var(--line);border-radius:16px;padding:16px 18px;height:190px;display:flex;flex-direction:column;overflow:hidden}
+.mock .mt{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:13px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase}
+.mock .row{display:flex;gap:16px;flex:1;margin-top:10px;min-height:0}
+.bars{display:flex;align-items:flex-end;gap:9px;flex:1;height:100%}
+.bars i{display:block;flex:1;background:var(--tc);border-radius:4px 4px 0 0}
+.mock .side{width:150px;display:flex;flex-direction:column;justify-content:center;border-left:2px solid var(--line);padding-left:14px}
+.mock .sl{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:12px;letter-spacing:1.2px;color:var(--muted);text-transform:uppercase}
+.mock .sv{font-size:36px;font-weight:900;margin-top:4px}
+.mock .sn{font-size:15px;color:var(--muted);margin-top:4px}
+.mock .bub{background:color-mix(in srgb,var(--tc) 14%,#fff);color:var(--ink);font-size:15px;border-radius:8px;padding:7px 10px;margin-top:8px;font-weight:600}
+.mock .gl{height:6px;border-radius:3px;background:var(--line);margin-top:10px}
+.mock .greet{background:color-mix(in srgb,var(--tc) 14%,#fff);border-radius:8px;padding:8px 12px;font-size:16px;font-weight:600;color:var(--ink)}
+.mock .hd{font-size:21px;font-weight:900;margin-top:10px}
+.mock .bl{font-size:15px;color:var(--muted);line-height:1.35;margin-top:4px}
+.mock .ask{font-size:13px;color:var(--tc);font-weight:700;margin-top:auto}
+.mock .li{font-size:17px;line-height:1.35;padding:6px 0;border-top:1px solid var(--line)}
+.mock .li:first-of-type{border-top:none}
+.found{margin-top:30px}
+.found .ft{font-size:30px;font-weight:900;letter-spacing:-.4px}
+.found .fi{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:19px;color:var(--muted);margin-top:8px}
 """
 
 # ---------------------------------------------------------------------------
@@ -152,6 +179,63 @@ def footer(right):
     return f"""<div class="footer"><div class="who"><div class="avatar">{INITIALS}</div>
 <div><div class="name">{HANDLE}</div><div class="role">{ROLE}</div></div></div>{right}</div>"""
 
+def _bars(vals):
+    vals = vals or [5, 7, 6, 9, 7, 5]
+    m = max(vals) or 1
+    return '<div class="bars">' + "".join(f'<i style="height:{max(8, int(100 * v / m))}%"></i>' for v in vals) + '</div>'
+
+def mockup(m):
+    """Small UI mockup for one tier. m = {"type": "chart"|"assistant"|"briefing"|"list", ...}"""
+    m = m or {}
+    t = m.get("type", "chart")
+    title = f'<div class="mt">{e(m.get("title", ""))}</div>' if m.get("title") else ""
+    if t == "chart":
+        side = ""
+        if m.get("value") or m.get("label"):
+            side = (f'<div class="side"><div class="sl">{e(m.get("label", ""))}</div>'
+                    f'<div class="sv">{e(m.get("value", ""))}</div><div class="sn">{e(m.get("note", ""))}</div></div>')
+        inner = f'{title}<div class="row">{_bars(m.get("bars"))}{side}</div>'
+    elif t == "assistant":
+        inner = (f'{title}<div class="row">{_bars(m.get("bars"))}'
+                 f'<div class="side" style="justify-content:flex-start"><div class="sl" style="color:var(--tc)">{e(m.get("label", "AI assistant"))}</div>'
+                 f'<div class="bub">{e(m.get("ask", "Explain this change"))}</div>'
+                 '<div class="gl"></div><div class="gl" style="width:80%"></div><div class="gl" style="width:60%"></div></div></div>')
+    elif t == "briefing":
+        lines = "".join(f'<div class="bl">{e(x)}</div>' for x in m.get("lines", []))
+        inner = (f'<div class="greet">{e(m.get("greeting", "Good morning. Here is your briefing."))}</div>'
+                 f'<div class="row" style="margin-top:4px"><div style="flex:1;display:flex;flex-direction:column">'
+                 f'<div class="hd">{e(m.get("headline", ""))}</div>{lines}<div class="ask">{e(m.get("ask", "Ask a follow-up question…"))}</div></div>'
+                 f'<div style="width:130px;height:90px;align-self:flex-end;display:flex">{_bars(m.get("bars"))}</div></div>')
+    else:  # list
+        inner = title + '<div style="margin-top:8px">' + "".join(f'<div class="li">{e(x)}</div>' for x in m.get("items", [])) + '</div>'
+    return f'<div class="mock">{inner}</div>'
+
+CLASSIC_TIER_COLORS = ["#2563EB", "#0F766E", "#7C3AED", "#B45309"]
+
+def tiers_body(s):
+    pal = PALETTES[CURRENT_PAL]
+    cols = s.get("tier_colors")
+    if cols == "classic":
+        cols = CLASSIC_TIER_COLORS
+    elif not isinstance(cols, list) or not cols:
+        cols = [pal["dark2"], pal["accentText"], pal["accent"], pal["muted"]]
+    out = []
+    for i, t in enumerate(s["tiers"]):
+        lines = "".join(f'<div class="ln">{e(x)}</div>' for x in t.get("lines", []))
+        num = "%02d" % (i + 1)
+        out.append(f'<div class="tier" style="--tc:{cols[i % len(cols)]}"><div>'
+                   f'<h3><span class="tn">{num}</span>{e(t["name"])}</h3>'
+                   f'<div class="tl">{e(t.get("tagline", ""))}</div><div style="margin-top:4px">{lines}</div></div>'
+                   f'{mockup(t.get("mock"))}</div>')
+    body = f'<div class="tiers">{"".join(out)}</div>'
+    f = s.get("foundation")
+    if f:
+        items = " / ".join(e(x) for x in f.get("items", []))
+        body += f'<div class="found"><div class="ft">{e(f.get("title", ""))}</div><div class="fi">{items}</div></div>'
+    return body
+
+CURRENT_PAL = PALETTE_ORDER[0]
+
 def infographic(s):
     lay = s.get("layout", "flow")
     head = f"""<div class="kicker">{e(s.get('kicker','Architecture'))}</div><h1>{e(s['title'])}</h1>
@@ -181,6 +265,8 @@ def infographic(s):
             (f'<div class="tools"><span class="lb">Works in:</span>{tools}</div>' if tools else "") + \
             (f'<div class="tip"><b>Why it works:</b> {e(s["tip"])}</div>' if s.get("tip") else "") + \
             (f'<div class="warn">🔒 {e(s["warn"])}</div>' if s.get("warn") else "")
+    elif lay == "tiers":
+        body = tiers_body(s)
     else:  # stat
         body = f"""<div class="big">{e(s['stat'])}</div><div class="statline">{e(s['statline'])}</div>
 <div class="points">{''.join(f'<div class="pt">{e(p)}</div>' for p in s.get('points', []))}</div>"""
@@ -215,6 +301,8 @@ def main():
     if a.get("role"): ROLE = html.escape(a["role"])
     if a.get("initials"): INITIALS = html.escape(a["initials"])
     pal = pick_palette(spec)
+    global CURRENT_PAL
+    CURRENT_PAL = pal
     print("PALETTE:", pal)
     out = sys.argv[2]; os.makedirs(out, exist_ok=True)
     with sync_playwright() as p:
