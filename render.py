@@ -3,7 +3,7 @@
 
 Usage:  python3 render.py spec.json OUT_DIR
 Spec types:
-  {"type":"infographic","layout":"flow"|"compare"|"stat"|"howto"|"tiers", ...}  -> OUT_DIR/infographic.png (1080x1350)
+  {"type":"infographic","layout":"flow"|"compare"|"stat"|"howto"|"tiers"|"concept", ...}  -> OUT_DIR/infographic.png (1080x1350)
   {"type":"carousel","slides":[...]}                              -> OUT_DIR/slide-NN.png + carousel.pdf
 Optional "palette": one of PALETTES or "random"; default rotates daily.
 See SKILL.md for the full field list.
@@ -127,6 +127,33 @@ pre{margin-top:30px;background:var(--dark);color:var(--soft);font-family:'JetBra
 .found{margin-top:30px}
 .found .ft{font-size:30px;font-weight:900;letter-spacing:-.4px}
 .found .fi{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:19px;color:var(--muted);margin-top:8px}
+
+/* concept (AI in Plain English series) */
+.cc-top{display:flex;justify-content:space-between;align-items:flex-start}
+.cc-series{display:inline-block;background:var(--dark);color:#fff;font-weight:800;font-size:22px;padding:10px 20px;border-radius:999px;letter-spacing:.3px}
+.cc-sub{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:18px;font-weight:700;letter-spacing:2px;color:var(--accentText);text-transform:uppercase;margin-top:16px}
+.cc-day{text-align:right;line-height:1}
+.cc-day .dl{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:20px;font-weight:700;letter-spacing:4px;color:var(--muted)}
+.cc-day .dn{font-size:120px;font-weight:900;letter-spacing:-5px;background:linear-gradient(135deg,var(--accent),var(--dark2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cc-title{font-size:100px;line-height:1.02;font-weight:900;letter-spacing:-2.5px;margin-top:6px}
+.cc-title em{font-style:normal;color:var(--accentText)}
+.cc-ana{margin-top:40px;background:var(--soft);border-radius:26px;padding:28px 32px 28px 96px;position:relative}
+.cc-ana:before{content:'“';position:absolute;left:24px;top:-8px;font-size:130px;font-weight:900;color:var(--accent);font-family:Georgia,serif;line-height:1}
+.cc-ana .al{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:17px;font-weight:700;letter-spacing:2px;color:var(--accentText);text-transform:uppercase}
+.cc-ana .at{font-size:38px;line-height:1.3;font-weight:700;margin-top:8px}
+.cc-lbl{font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:18px;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin:46px 0 16px}
+.cc-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cc-step{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:30px 24px 34px;position:relative}
+.cc-step.hl{border-color:var(--accent);background:var(--soft)}
+.cc-step .n{width:52px;height:52px;border-radius:50%;background:var(--dark2);color:#fff;font-weight:900;font-size:24px;display:flex;align-items:center;justify-content:center}
+.cc-step.hl .n{background:var(--accent)}
+.cc-step h3{font-size:30px;line-height:1.15;font-weight:800;margin-top:16px}
+.cc-step p{font-size:22px;line-height:1.38;color:var(--muted);margin-top:8px}
+.cc-seen{display:flex;flex-wrap:wrap;gap:10px}
+.cc-seen span{background:var(--chip);color:var(--dark2);font-weight:700;font-size:23px;padding:11px 20px;border-radius:999px;border:1px solid var(--line)}
+.cc-next{margin-top:46px;background:linear-gradient(135deg,var(--dark),var(--dark2));color:#fff;border-radius:22px;padding:26px 32px;display:flex;justify-content:space-between;align-items:center;font-size:26px;font-weight:600}
+.cc-next b{color:var(--onDark)}
+.cc-next .ar{font-size:30px;color:var(--onDark)}
 """
 
 # ---------------------------------------------------------------------------
@@ -236,7 +263,29 @@ def tiers_body(s):
 
 CURRENT_PAL = PALETTE_ORDER[0]
 
+def concept_page(s):
+    """Series concept card: {"layout":"concept","series":"AI in Plain English","series_sub":"No tech background needed",
+    "day":6,"title":"What is *RAG*?","analogy":"…","steps":[{"name","desc","highlight"}x3],
+    "seen_in":["…"],"next":"Vector databases"}"""
+    day = s.get("day")
+    daybox = f'<div class="cc-day"><div class="dl">DAY</div><div class="dn">{int(day):02d}</div></div>' if day is not None else ""
+    sub = f'<div class="cc-sub">{e(s["series_sub"])}</div>' if s.get("series_sub") else ""
+    top = f'<div class="cc-top"><div><div class="cc-series">{e(s.get("series","AI in Plain English"))}</div>{sub}</div>{daybox}</div>'
+    title = f'<div class="cc-title">{e(s["title"])}</div>'
+    ana = (f'<div class="cc-ana"><div class="al">{e(s.get("analogy_label","In plain English"))}</div>'
+           f'<div class="at">{e(s["analogy"])}</div></div>') if s.get("analogy") else ""
+    steps = "".join(f'<div class="cc-step {"hl" if st.get("highlight") else ""}"><div class="n">{k+1}</div>'
+                    f'<h3>{e(st["name"])}</h3><p>{e(st.get("desc",""))}</p></div>' for k, st in enumerate(s.get("steps", [])))
+    steps = f'<div class="cc-lbl">{e(s.get("steps_label","How it works"))}</div><div class="cc-steps">{steps}</div>' if steps else ""
+    seen = "".join(f'<span>{e(x)}</span>' for x in s.get("seen_in", []))
+    seen = f'<div class="cc-lbl">{e(s.get("seen_label","You have already seen it in"))}</div><div class="cc-seen">{seen}</div>' if seen else ""
+    nxt = (f'<div class="cc-next"><div>Next in the series: <b>{e(s["next"])}</b></div><div class="ar">→</div></div>') if s.get("next") else ""
+    return (f'<div class="page">{top}{title}<div class="content" style="justify-content:flex-start;padding-top:0">'
+            f'{ana}{steps}{seen}{nxt}</div>' + footer('<div class="tag">save ↗ share ↻</div>') + '</div>')
+
 def infographic(s):
+    if s.get("layout") == "concept":
+        return concept_page(s)
     lay = s.get("layout", "flow")
     head = f"""<div class="kicker">{e(s.get('kicker','Architecture'))}</div><h1>{e(s['title'])}</h1>
 {f'<div class="sub">{e(s["subtitle"])}</div>' if s.get('subtitle') else ''}"""
