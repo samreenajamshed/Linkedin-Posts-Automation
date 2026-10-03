@@ -1,0 +1,8 @@
+{"type":"infographic","filename":"infographic","layout":"compare","palette":"mix",
+"kicker":"QUICK TAKE · REPEAT RATE",
+"title":"Stop *re-fixing* the same plan",
+"subtitle":"Fix vs prevent · Illustrative numbers",
+"left":{"title":"Firefighting view","items":["We fixed 40 plan misses this month","Ask: how do we fix this?","Patch the plan, move on","Fast reaction is the KPI"]},
+"right":{"title":"Prevention view","items":["30 of the 40 were repeats: 75%","Ask: what allowed this to happen?","Fix master data, approvals, handoffs","Falling repeat rate is the KPI"]},
+"takeaway":"Repeat rate = misses with a known cause ÷ total misses",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
