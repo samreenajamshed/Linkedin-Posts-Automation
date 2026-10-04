@@ -1,0 +1,9 @@
+{"type":"infographic","filename":"infographic","layout":"stat","palette":"mix",
+"kicker":"CAREER LESSON · CCFOT",
+"title":"Count *cases*, not orders",
+"subtitle":"Unilever Pakistan, 2006 · worked example uses illustrative numbers",
+"stat":"86%",
+"statline":"CCFOT, customer case fill on time, Unilever Pakistan 2006",
+"points":["CCFOT = cases on time and in full ÷ cases ordered","Illustrative: 9 of 10 orders on time reads 90%","2 short by 60 cases, 1 late with 100 cases","CCFOT = 780 ÷ 1,000 = 78%","Split lost cases into late, short or wrong"],
+"takeaway":"A short order delivered on time is still a short shelf.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
