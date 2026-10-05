@@ -1,14 +1,14 @@
 {"type":"infographic","layout":"tiers","palette":"mix",
 "kicker":"FLOOR-TESTED FIX · ABC SLOTTING",
 "title":"Fast movers belong *close*",
-"subtitle":"Rank SKUs by pick lines, then give each class its place. Illustrative numbers.",
+"subtitle":"Rank SKUs by pick lines. Illustrative numbers.",
 "tiers":[
- {"name":"A items","tagline":"First 80% of picks","lines":["Golden zone: near dispatch, waist height","Re-check every month"],
+ {"name":"A items","tagline":"First 80% of picks","lines":["Golden zone: near dispatch, waist height"],
   "mock":{"type":"chart","title":"Picks per day","bars":[120,95,80,60,45],"label":"Extra walk","value":"6 km","note":"120 picks x 50 m"}},
- {"name":"B items","tagline":"Next 15% of picks","lines":["Middle aisles, easy reach","Promote to A if picks rise"],
+ {"name":"B items","tagline":"Next 15% of picks","lines":["Middle aisles, easy reach"],
   "mock":{"type":"chart","title":"Picks per day","bars":[30,26,22,18,15,12],"label":"Location","value":"Mid","note":"one step back"}},
- {"name":"C items","tagline":"Last 5% of picks","lines":["Far bays, high or low levels","Value alone never earns a prime slot"],
-  "mock":{"type":"list","title":"Common mistake","items":["Ranking by sales value","Slotting once, on day one","Free space decides location"]}}
+ {"name":"C items","tagline":"Last 5% of picks","lines":["Far bays, high or low levels"],
+  "mock":{"type":"list","title":"Common mistake","items":["Ranking by sales value","Slotting once, on day one"]}}
 ],
 "foundation":{"title":"The formula","items":["Extra walking per day = picks per day x extra metres per pick"]},
 "takeaway":"Slot by how often you pick it, not by what it costs.",
