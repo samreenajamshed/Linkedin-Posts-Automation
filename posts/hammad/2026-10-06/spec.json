@@ -1,0 +1,12 @@
+{"type":"infographic","layout":"howto","palette":"mix",
+"audience":"For logistics and 3PL managers",
+"kicker":"AI AT WORK · WEIGHTED 3PL SCORECARD",
+"title":"Green on time, *amber* overall",
+"subtitle":"Score x weight, summed. Illustrative numbers.",
+"steps":["On-time 96 x 40% = 38.4","Damage-free 80 x 25% = 20","Invoice accuracy 70 x 20% = 14","Issue response 60 x 15% = 9  →  Total 81.4"],
+"prompt_label":"COPY THIS PROMPT",
+"prompt":"Score this 3PL with these weights: [your weights].\nShow the maths. List the 3 weakest KPIs,\na likely cause for each, and one question\nto ask in the review. Data: [paste KPI export]",
+"tools":["ChatGPT","Claude","Copilot in Excel"],
+"tip":"Fix the weights before you see the scores. AI drafts, you agree the actions.",
+"warn":"Strip client names and rates before pasting.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
