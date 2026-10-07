@@ -1,0 +1,13 @@
+{"type":"infographic","layout":"flow","palette":"mix",
+"audience":"For warehouse and inventory teams",
+"kicker":"SUPPLY CHAIN 101 · FIFO VS FEFO",
+"title":"Pick by *expiry*, not by arrival",
+"subtitle":"FEFO: First Expired, First Out. Four controls make it real.",
+"stages":[
+{"name":"Receive","desc":"Capture lot and expiry date on every pallet at the dock, not later.","chips":["Lot","Expiry"]},
+{"name":"Put away","desc":"Never park new pallets in front of older dates in the same bay.","chips":["Location rules"]},
+{"name":"Pick","desc":"The system directs the nearest expiry first, whenever it arrived.","chips":["FEFO"],"highlight":true},
+{"name":"Check","desc":"Hold lots below the customer's minimum shelf life before dispatch.","chips":["Shelf life %"]}
+],
+"takeaway":"Remaining shelf life % = days to expiry ÷ total shelf life x 100",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
