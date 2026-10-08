@@ -1,0 +1,8 @@
+{"type":"infographic","filename":"infographic","layout":"compare","palette":"mix",
+"kicker":"NUMBERS THAT MATTER · SAFETY STOCK",
+"title":"One rule, *wrong* for every SKU",
+"subtitle":"Flat days of cover vs sized by SKU · Illustrative numbers",
+"left":{"title":"Flat rule: 14 days for all","items":["Ignores demand spikes","Ignores late supply","Steady SKU: 1,400 cases parked","Erratic SKU: still runs out"]},
+"right":{"title":"Sized SKU by SKU","items":["Worst case: 200 x 12 days = 2,400","Normal: 100 x 5 days = 500","Erratic SKU needs 1,900, about 19 days","Steady SKU needs only 160 cases"]},
+"takeaway":"Safety stock = peak sales x longest lead time minus avg sales x avg lead time",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
