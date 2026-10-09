@@ -1,0 +1,11 @@
+{"type":"carousel","filename":"hammad-carousel-2026-10-09","palette":"mix",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+"slides":[
+{"kicker":"PLAYBOOK · COLD CHAIN","title":"Your cold chain breaks at the *handoffs*","body":"4 handoffs, one control for each"},
+{"kicker":"SUPPLY CHAIN 101 · TEMPERATURE EXCURSION","title":"What an *excursion* is","bullets":["Any time product leaves its safe range, even for minutes","Excursion rate = loads with an excursion ÷ loads monitored","Illustrative: 6 in 200 loads = 3%"]},
+{"kicker":"HANDOFF 1 · THE DOCK","title":"Pallets *waiting* on a warm dock","bullets":["Set a maximum dock time per pallet","Stage in the cold room, not the dock","Load only when the truck is at the door"]},
+{"kicker":"HANDOFF 2 · THE TRUCK","title":"Loading a truck that isn't *cold*","bullets":["Pre-cool the reefer before loading","Check the box reading, not the dashboard","No reading, no loading"]},
+{"kicker":"HANDOFF 3 · THE DOOR","title":"Every drop *opens* the door","bullets":["Sequence drops to cut door openings","Unload fast, close between pallets","Log temperature at each drop"]},
+{"kicker":"HANDOFF 4 · THE OUTLET","title":"The last freezer is the *weakest*","bullets":["Check outlet freezer temperature every visit","Don't push more stock than it can hold cold","Rotate by expiry, oldest out first"]},
+{"kicker":"THE TAKEAWAY","title":"Log every *handoff*, not just both ends","body":"Save this for your next review."}
+]}
