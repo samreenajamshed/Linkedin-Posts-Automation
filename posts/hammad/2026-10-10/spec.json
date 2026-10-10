@@ -1,0 +1,8 @@
+{"type":"infographic","layout":"compare","palette":"mix","filename":"infographic",
+"kicker":"QUICK TAKE · RETURNS DWELL TIME",
+"title":"Returns are *stock*, not rubbish",
+"subtitle":"The days from a return arriving to the decision on it",
+"left":{"title":"Common view","items":["Returns wait for month-end","Stock invisible in the system","Shelf life ticks, no owner","Scrapped in bulk later"]},
+"right":{"title":"Better view","items":["Decide within 48 hours","Booked to a blocked status","Expiry checked at receipt","Restock, rework or scrap"]},
+"takeaway":"Dwell time = total days returns waited ÷ returns decided. Illustrative: 480 ÷ 40 = 12 days.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
