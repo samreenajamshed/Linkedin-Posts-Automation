@@ -1,0 +1,13 @@
+{"type":"infographic","layout":"flow","palette":"mix","filename":"infographic",
+"audience":"For planners and logistics teams",
+"kicker":"CAREER LESSON · SOURCE MATRIX",
+"title":"The *nearest* plant is a habit",
+"subtitle":"Serve each distributor from its lowest landed cost source · Illustrative numbers",
+"stages":[
+{"name":"List","desc":"Every distributor in the rows, every plant or depot in the columns.","chips":["Demand points"]},
+{"name":"Cost each cell","desc":"Plant A: 400 + 60 = 460. Plant B: 410 + 30 = 440 per case.","chips":["Landed cost"],"highlight":true},
+{"name":"Check capacity","desc":"The cheapest cell only wins if the plant has the volume and the SKUs.","chips":["Capacity","SKU range"]},
+{"name":"Re-route","desc":"Move the distributor, then re-check the matrix every quarter.","chips":["Review"]}
+],
+"takeaway":"Landed cost per case = ex-plant cost per case + freight per case",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
