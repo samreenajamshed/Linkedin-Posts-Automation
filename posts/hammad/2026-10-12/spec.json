@@ -1,0 +1,8 @@
+{"type":"infographic","layout":"compare","palette":"mix","filename":"infographic",
+"kicker":"FLOOR-TESTED FIX · AVAILABLE STOCK",
+"title":"Full warehouse, *empty* shelves",
+"subtitle":"On hand vs available stock · Illustrative numbers",
+"left":{"title":"Planning on on hand","items":["10,000 cases on the report","QC holds counted as sellable","Short dated stock promised","Lost locations still counted","Allocated stock sold twice"]},
+"right":{"title":"Planning on available","items":["3,000 cases you can ship today","Quality owns and clears holds","Sales moves short dated stock","Every put away scanned","Allocations taken out first"]},
+"takeaway":"Available = on hand minus held, short dated, lost and allocated. Illustrative: 10,000 cases, 3,000 usable.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
