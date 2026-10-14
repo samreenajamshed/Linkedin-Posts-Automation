@@ -1,0 +1,12 @@
+{"type":"infographic","layout":"flow","palette":"mix",
+"kicker":"SUPPLY CHAIN 101 · KRALJIC MATRIX",
+"title":"Cheap item, *expensive* stop",
+"subtitle":"Buy by impact and risk, not spend alone. Illustrative examples.",
+"stages":[
+ {"name":"List your top 30 items","desc":"Raw and packing materials, services, spares","chips":["Spend"]},
+ {"name":"Score impact and supply risk","desc":"Impact: moves cost or sales. Risk: few suppliers, no substitute.","chips":["Impact","Risk"]},
+ {"name":"Buy by quadrant","desc":"Preforms: partner. Sugar: tender hard. Cleaning: automate.","chips":["Strategic","Leverage","Non-critical"]},
+ {"name":"Fix bottlenecks first","desc":"Low spend, high risk, e.g. a single-source label: buffer it, add a 2nd source","chips":["Bottleneck"],"highlight":true}
+],
+"takeaway":"Spend shows what costs most. Risk shows what can stop the line.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
