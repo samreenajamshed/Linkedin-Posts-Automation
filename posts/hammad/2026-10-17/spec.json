@@ -1,0 +1,33 @@
+{
+  "layout": "compare",
+  "kicker": "QUICK TAKE · MASTER DATA COMPLETENESS",
+  "title": "Clean data *before* clever tools",
+  "subtitle": "Illustrative numbers",
+  "left": {
+    "title": "Common view",
+    "items": [
+      "Buy an AI tool to fix planning",
+      "Let the model guess missing fields",
+      "Re-fix the plan every week",
+      "Data cleanup is IT's job"
+    ]
+  },
+  "right": {
+    "title": "Better view",
+    "items": [
+      "Fix the item master first",
+      "Block SKUs missing key fields",
+      "Fix the field behind the miss",
+      "Planners own their SKU data"
+    ]
+  },
+  "takeaway": "Completeness = complete SKUs ÷ active SKUs. 1,020 ÷ 1,200 = 85%",
+  "author": {
+    "name": "Hammad Ulhaq",
+    "role": "Head of Supply Chain · 20+ yrs FMCG & Beverages",
+    "initials": "HU"
+  },
+  "palette": "mix",
+  "type": "infographic",
+  "filename": "infographic"
+}
