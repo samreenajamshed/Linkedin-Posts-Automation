@@ -1,8 +1,7 @@
-{"type":"infographic","layout":"flow","filename":"infographic","kicker":"FRAMEWORK · LANDED COST","title":"The cheaper quote landed *dearer*","subtitle":"Illustrative numbers, per unit: Supplier A vs Supplier B","stages":[
-{"name":"Supplier price","desc":"What the quote says. Only the starting point. A 100, B 94.","chips":["Quote"]},
+{"type":"infographic","layout":"flow","filename":"infographic","kicker":"FRAMEWORK · LANDED COST","title":"The cheaper quote landed *dearer*","subtitle":"Illustrative numbers, per unit: Supplier A vs B","stages":[
+{"name":"Supplier price","desc":"Only the starting point. A 100, B 94.","chips":["Quote"]},
 {"name":"Freight","desc":"Distance, mode and load fill. A 4, B 11.","chips":["Cost per unit"]},
-{"name":"Duties and insurance","desc":"Set by item code, origin and value. A 10, B 9.","chips":["HS code"]},
-{"name":"Handling","desc":"Port, clearing, unloading and put-away. A 2, B 4.","chips":["Port charges"]},
+{"name":"Duties and handling","desc":"Duty, port, clearing and put-away. A 12, B 13.","chips":["Port charges"]},
 {"name":"Landed cost","desc":"A lands at 116, B at 118. The cheaper quote costs more.","chips":["Compare here"],"highlight":true}],
-"takeaway":"Compare suppliers on landed cost per unit, never on quoted price alone.",
+"takeaway":"Compare suppliers on landed cost per unit, not quoted price.",
 "author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},"palette":"mix"}
