@@ -1,0 +1,17 @@
+Day 8 of AI in Plain English: how AI finds the right page even when you use different words.
+
+In simple words: a library sorted by meaning, not by title.
+
+Ask "how many days off do I get?" and it still finds the page called "Annual leave policy".
+
+AI turns each sentence into numbers that capture its meaning, called embeddings. Similar meanings sit close together.
+
+A vector database stores them and finds the closest match fast.
+
+It's the search behind Day 7's RAG, so clean, current files matter.
+
+Next up on Friday: AI agents.
+
+Which AI word confuses you most? I'll add it to the series.
+
+#AIinPlainEnglish #AI #LearnAI
