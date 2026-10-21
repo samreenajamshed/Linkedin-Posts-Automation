@@ -33,3 +33,4 @@
 {"account": "hammad", "date": "2026-10-14", "layout": "flow", "title": "Cheap item, expensive stop", "kicker": "SUPPLY CHAIN 101 · KRALJIC MATRIX", "source": "seeded from spec.json"}
 {"account": "hammad", "date": "2026-10-17", "layout": "compare", "title": "Clean data before clever tools", "kicker": "QUICK TAKE · MASTER DATA COMPLETENESS", "source": "seeded from spec.json"}
 {"account": "samreena", "date": "2026-10-21", "pillar": "AI in Plain English", "topic": "Day 8: Embeddings and vector databases", "day": 8, "mode": "NATIVE"}
+{"account": "hammad", "date": "2026-10-21", "pillar": "Framework infographic", "topic": "Landed cost vs quoted price", "concept": "Landed cost per unit", "layout": "flow", "title": "The cheaper quote landed dearer", "kicker": "FRAMEWORK · LANDED COST"}
