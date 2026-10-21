@@ -1,0 +1,34 @@
+{"account": "samreena", "date": "2026-09-25", "layout": "carousel", "title": "Your RAG demo works. Production will break it.", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-09-29", "layout": "compare", "title": "New hire onboarding, without the blank page", "audience": "For HR & recruiters", "kicker": "AI at work · HR", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-09-30", "layout": "concept", "title": "What is AI, really?", "day": 1, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-01", "layout": "compare", "title": "Check AI's numbers before you send", "audience": "For finance & accounting", "kicker": "AI at work · Finance", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-02", "layout": "concept", "title": "What is an LLM?", "day": 2, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-05", "layout": "concept", "title": "What are tokens?", "day": 3, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-06", "layout": "compare", "title": "The follow-up email, faster", "audience": "For sales teams", "kicker": "AI at work · Sales", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-07", "layout": "concept", "title": "What is a prompt?", "day": 4, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-08", "layout": "compare", "title": "AI replies to upset customers", "audience": "For customer support teams", "kicker": "AI at work · Customer support", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-09", "layout": "concept", "title": "Why does AI forget?", "day": 5, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-12", "layout": "concept", "title": "When AI guesses", "day": 6, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-13", "layout": "compare", "title": "The weekly status update, sorted", "audience": "For project managers", "kicker": "AI at work · Project management", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-14", "layout": "concept", "title": "When AI guesses", "day": 6, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-15", "layout": "compare", "title": "AI for lessons, not student data", "audience": "For teachers & trainers", "kicker": "AI at work · Teaching", "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-19", "layout": "concept", "title": "What is RAG?", "day": 7, "source": "seeded from spec.json"}
+{"account": "samreena", "date": "2026-10-20", "layout": "compare", "title": "60 emails, one clear summary", "audience": "For admin & executive assistants", "kicker": "Before vs after AI", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-09-26", "layout": "compare", "title": "A KPI nobody acts on is decoration", "kicker": "Quick take · Warehouse KPIs", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-09-29", "layout": "flow", "title": "400 lines, 10 decisions", "kicker": "AI AT WORK · DAYS OF COVER", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-09-30", "layout": "flow", "title": "Pick errors start at receiving", "kicker": "FRAMEWORK · THE WAREHOUSE CYCLE", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-01", "layout": "compare", "title": "Same trip, pricier cases", "kicker": "NUMBERS THAT MATTER · COST PER CASE DELIVERED", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-02", "layout": "carousel", "title": "One plan, not three versions of the truth", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-03", "layout": "compare", "title": "Stop re-fixing the same plan", "kicker": "QUICK TAKE · REPEAT RATE", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-04", "layout": "stat", "title": "Count cases, not orders", "kicker": "CAREER LESSON · CCFOT", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-05", "layout": "tiers", "title": "Fast movers belong close", "kicker": "FLOOR-TESTED FIX · ABC SLOTTING", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-06", "layout": "howto", "title": "Green on time, amber overall", "audience": "For logistics and 3PL managers", "kicker": "AI AT WORK · WEIGHTED 3PL SCORECARD", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-07", "layout": "flow", "title": "Pick by expiry, not by arrival", "audience": "For warehouse and inventory teams", "kicker": "SUPPLY CHAIN 101 · FIFO VS FEFO", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-08", "layout": "compare", "title": "One rule, wrong for every SKU", "kicker": "NUMBERS THAT MATTER · SAFETY STOCK", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-09", "layout": "carousel", "title": "Your cold chain breaks at the handoffs", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-10", "layout": "compare", "title": "Returns are stock, not rubbish", "kicker": "QUICK TAKE · RETURNS DWELL TIME", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-11", "layout": "flow", "title": "The nearest plant is a habit", "audience": "For planners and logistics teams", "kicker": "CAREER LESSON · SOURCE MATRIX", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-12", "layout": "compare", "title": "Full warehouse, empty shelves", "kicker": "FLOOR-TESTED FIX · AVAILABLE STOCK", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-13", "layout": "howto", "title": "Two reasons, most late orders", "audience": "For planners and logistics leads", "kicker": "AI AT WORK · PARETO OF LATE ORDERS", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-14", "layout": "flow", "title": "Cheap item, expensive stop", "kicker": "SUPPLY CHAIN 101 · KRALJIC MATRIX", "source": "seeded from spec.json"}
+{"account": "hammad", "date": "2026-10-17", "layout": "compare", "title": "Clean data before clever tools", "kicker": "QUICK TAKE · MASTER DATA COMPLETENESS", "source": "seeded from spec.json"}
