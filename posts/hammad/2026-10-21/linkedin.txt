@@ -1,0 +1,20 @@
+Supplier B quoted 6% less. It cost more to land.
+
+Price is what you pay the supplier. Landed cost is what you pay to have it on your shelf.
+
+Landed cost: every cost to get one unit into your warehouse, ready to use.
+Landed cost per unit = price + freight + duties + insurance + handling, all ÷ units received
+
+Illustrative numbers, per unit:
+→ Supplier A: 100 price + 4 freight + 10 duty + 2 handling = 116
+→ Supplier B: 94 price + 11 freight + 9 duty + 4 handling = 118
+
+The cheaper quote is the dearer buy. A longer lead time often adds safety stock too, and that is cash.
+
+The common mistake: comparing quotes on price alone, then watching freight and port bills break the budget.
+
+Monday morning: take your top 5 purchased items and redo the supplier comparison on landed cost.
+
+Which cost surprises you most when you land it: freight, duty or handling?
+
+#Procurement #SupplyChain #Logistics
