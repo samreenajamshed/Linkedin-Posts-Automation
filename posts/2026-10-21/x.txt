@@ -1,0 +1,7 @@
+AI in Plain English, Day 8: embeddings
+
+Think of a library sorted by meaning, not by title.
+
+Ask "how many days off do I get?" and AI still finds the "Annual leave policy" page.
+
+That's how company chatbots find the right file before they answer you.
