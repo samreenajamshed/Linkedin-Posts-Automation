@@ -1,0 +1,29 @@
+Two SKUs. Same 90% forecast accuracy.
+One ran out every month. The other never did.
+
+The difference was bias, and most S&OP packs don't show it.
+
+Forecast bias: whether your forecast misses in the same direction, again and again.
+
+Bias % = total forecast minus total actual, then ÷ total actual
+
+Illustrative numbers, 4 weeks, actual sales 1,000 cases a week:
+→ SKU A: forecast 900 every week. Accuracy 90%. Bias minus 10%.
+→ SKU B: forecast 1,100, 900, 1,100, 900. Accuracy 90%. Bias 0%.
+
+SKU B's misses cancel out. Safety stock absorbs them.
+SKU A is short 100 cases every single week. Safety stock drains, then the shelf empties.
+
+Accuracy tells you how big the miss is.
+Bias tells you which way it leans.
+
+The common mistake: celebrating a good accuracy score while a steady lean goes unnoticed.
+
+What to do Monday morning:
+1. Put a bias column next to accuracy in your S&OP pack.
+2. Flag any SKU that misses in the same direction 3 periods in a row.
+3. Ask who adjusted that forecast last, and on what assumption.
+
+Which do you report today: accuracy, bias, or both?
+
+#DemandPlanning #SupplyChain #SOP
