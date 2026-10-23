@@ -1,0 +1,20 @@
+Target: 60% palletised dispatch.
+By May 2012 we were at 100%.
+
+Palletisation looks like an equipment problem. Most of the work is making pallet-first the default at the loading bay, not the special case.
+
+Palletised dispatch rate: the share of cases that leave on a pallet instead of being hand-loaded.
+
+Palletised dispatch rate = cases dispatched on pallets ÷ total cases dispatched
+
+Illustrative numbers: 9,000 of 12,000 cases on pallets = 75%.
+
+Why it pays: fewer touches, faster loading, less damage, quicker counts.
+
+Common mistake: counting pallets, not cases. You can ship plenty of pallets and still hand-load most of your volume.
+
+The slides show the playbook I'd use to take a site pallet-first.
+
+What share of your dispatch goes out on pallets today?
+
+#Warehousing #Logistics #FMCG
