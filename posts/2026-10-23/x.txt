@@ -1,0 +1,6 @@
+AI in Plain English, Day 9: AI agents
+
+A chatbot tells you how to book the meeting.
+An agent opens your calendar, finds a free slot and drafts the invite.
+
+Great for boring multi-step tasks. One rule: you approve anything that sends, pays or deletes.
