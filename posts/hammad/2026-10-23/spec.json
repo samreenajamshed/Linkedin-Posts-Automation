@@ -1,0 +1,11 @@
+{"type":"carousel","filename":"hammad-carousel-2026-10-23","palette":"mix",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+"slides":[
+{"kicker":"PLAYBOOK · PALLETISATION","title":"Pallet-first is a *habit*, not a project","body":"From hand-loaded to pallet-first in 5 steps"},
+{"kicker":"SUPPLY CHAIN 101 · PALLETISED DISPATCH RATE","title":"Measure it in *cases*","bullets":["Rate = cases dispatched on pallets ÷ total cases dispatched","Illustrative: 9,000 of 12,000 cases = 75%","Count cases, not pallets, or hand-loading hides"]},
+{"kicker":"STEP 1 · BASELINE","title":"Know your real *starting* point","bullets":["Track the rate daily, by shift and by route","List which loads still go by hand, and why","Set a monthly target the team can see"]},
+{"kicker":"STEP 2 · THE LOAD","title":"Build pallets that *fit* the truck","bullets":["Standard patterns per SKU and pack","Match pallet count to the truck bed","Stretch wrap so loads survive the road"]},
+{"kicker":"STEP 3 · THE CUSTOMER","title":"Agree how pallets get *off*","bullets":["Check each customer can receive pallets","Plan pallet returns and swaps up front","Keep hand-loading as the exception, logged"]},
+{"kicker":"STEP 4 · THE DOCK","title":"Make pallet-first the *default*","bullets":["Pick and stage by pallet, not by case","Train loaders and supervisors on the new SOP","Review every hand-loaded truck next morning"]},
+{"kicker":"THE TAKEAWAY","title":"Change the default, then *track* it daily","body":"Save this for your next review."}
+]}
