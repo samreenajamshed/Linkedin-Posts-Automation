@@ -1,0 +1,17 @@
+Day 9 of AI in Plain English: what changes when AI stops talking and starts doing.
+
+In simple words: an AI agent is an assistant that can click buttons, not just talk.
+
+A chatbot tells you how to book the meeting.
+An agent opens your calendar, finds a slot and drafts the invite.
+
+That makes agents useful for boring, multi-step tasks at work.
+But a mistake becomes an action, not just a wrong sentence.
+
+My rule: let it prepare. You approve anything that sends, pays or deletes.
+
+Next up on Monday: tools and plugins.
+
+Which daily task would you trust an AI agent with first?
+
+#AIinPlainEnglish #AI #LearnAI
