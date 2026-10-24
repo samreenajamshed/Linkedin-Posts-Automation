@@ -1,0 +1,19 @@
+Late dispatch rarely needs more trucks.
+It usually needs more trips from the trucks you already have.
+
+Trips per vehicle: how many loaded trips each truck makes in a working day.
+Trips per vehicle = total trips ÷ trucks in use
+
+Illustrative numbers: 20 trucks, 30 trips a day = 1.5.
+Lift it to 2 and you get 10 extra trips a day, with zero new trucks.
+
+Where the lost trip usually hides:
+→ trucks queuing at the dock for loads
+→ order cutoffs that drift later every week
+→ long unloading waits at the customer
+
+Fix those before you sign for another truck.
+
+What is your fleet's trips per vehicle today?
+
+#Logistics #FMCG #Operations
