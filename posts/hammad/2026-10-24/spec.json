@@ -1,0 +1,8 @@
+{"type":"infographic","layout":"compare","palette":"mix",
+"kicker":"QUICK TAKE · TRIPS PER VEHICLE",
+"title":"More trips, not more *trucks*",
+"subtitle":"Illustrative numbers: 30 trips ÷ 20 trucks = 1.5 a day",
+"left":{"title":"Common view","items":["Dispatch is late, so add trucks","Judge the fleet by trucks owned","Trucks wait at the dock for loads","Order cutoffs drift later each week","Unloading time is the customer's issue"]},
+"right":{"title":"Better view","items":["Dispatch is late, so find the lost trip","Judge the fleet by trips per vehicle","Loads staged before the truck arrives","Fixed order cutoffs, held daily","Agree unloading slots with customers"]},
+"takeaway":"Trips per vehicle = total trips ÷ trucks in use",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
