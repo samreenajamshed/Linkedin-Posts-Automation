@@ -1,0 +1,17 @@
+Operations and supply chain folks, this one is for you.
+
+Before AI, I spent years in S&OP and supply-chain analytics, chasing distributors, reconciling numbers and explaining delays.
+
+The same few tasks ate every week.
+
+If AI could take just one of them off your plate tomorrow, vote below.
+
+I'll share my pick and a ready-to-use prompt for it in the comments.
+
+#SupplyChain #AIatWork #Operations
+
+POLL Q: Which weekly task would you hand to AI first?
+OPT 1: Supplier follow-up emails
+OPT 2: Weekly stock report
+OPT 3: Summarising delay reasons
+OPT 4: Matching invoices to POs
