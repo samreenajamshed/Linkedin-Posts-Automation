@@ -1,0 +1,16 @@
+Managers: before you hand anything to AI, find the task your team dreads.
+
+At Gerry's Group, I built the BI function from zero. One of the first things I fixed was a reporting cycle that took two days of manual work.
+
+That fix used data pipelines, not AI. But the lesson is the one I still use to pick tasks for AI today. Start with a task that:
+→ repeats every week or month
+→ follows the same steps each time
+→ a person can check quickly
+
+Tick all three and AI can take the first draft off your plate. If the task needs judgment about people, keep it human.
+
+The right first task matters more than the right tool.
+
+What is the one task your team dreads every week?
+
+#Leadership #AIatWork #FutureOfWork
