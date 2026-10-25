@@ -1,0 +1,12 @@
+{"type":"infographic","layout":"flow","palette":"mix",
+"kicker":"CAREER LESSON · INVENTORY RECORD ACCURACY",
+"title":"SAP is only as *true* as the rack",
+"subtitle":"Two SAP go-lives, one lesson · illustrative numbers",
+"stages":[
+{"name":"Count","desc":"Pick 20 fast-moving locations each week","chips":["Cycle count"]},
+{"name":"Compare","desc":"System stock vs the rack, location by location","chips":["No netting"]},
+{"name":"Score","desc":"170 of 200 locations match = 85% IRA","chips":["IRA"],"highlight":true},
+{"name":"Fix the cause","desc":"Receiving, put-away or posting: fix the step that broke","chips":["Root cause"]}
+],
+"takeaway":"IRA = locations that match ÷ locations counted x 100",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
