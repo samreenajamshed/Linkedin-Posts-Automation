@@ -1,0 +1,26 @@
+I've helped take SAP live twice.
+The software was never the hard part.
+
+At Engro Foods, it was SAP MM and LE in a dairy warehouse in Sukkur. At Pepsi Bottling Ventures in Faisalabad, a re-implementation.
+
+What both taught me: the real test comes after go-live. Does the system stock match what's on the rack?
+
+Teach: Inventory record accuracy, IRA.
+The share of counted locations where system stock matches physical stock.
+
+IRA = locations that match ÷ locations counted x 100
+
+Illustrative numbers: count 200 locations, 170 match.
+170 ÷ 200 = 85% IRA.
+So 1 location in 7 is wrong, and every plan built on it inherits the error.
+
+Common mistake: netting. Plus 30 cases in one bay and minus 30 in another looks like zero variance. IRA scores them as two misses.
+
+Monday morning:
+→ Count 20 fast-moving locations, not the whole warehouse
+→ Score match or no match, no netting
+→ Fix the step behind each miss, not just the number
+
+What does your team use to judge stock accuracy: value, units or locations?
+
+#SupplyChain #Warehousing #Operations
