@@ -1,0 +1,15 @@
+{"type":"infographic","layout":"tiers","palette":"mix",
+"kicker":"FLOOR-TESTED FIX · DISPATCH LINEARITY",
+"title":"Flatten the *month-end* spike",
+"subtitle":"How evenly you ship across the month. Illustrative numbers.",
+"tiers":[
+ {"name":"Month-end rush","tagline":"40% ships in the last week","lines":["Overtime, hired trucks, short shipments"],
+  "mock":{"type":"chart","title":"Cases per week, thousands","bars":[20,20,20,40],"label":"Last-week share","value":"40%","note":"40k of 100k cases"}},
+ {"name":"Weekly targets","tagline":"Sales and dispatch agree by week","lines":["Weekly volume split, reviewed every Monday"],
+  "mock":{"type":"chart","title":"Cases per week, thousands","bars":[22,24,26,28],"label":"Last-week share","value":"28%","note":"28k of 100k cases"}},
+ {"name":"Linear plan","tagline":"Fixed slots, even flow","lines":["Big customers booked into early-month slots"],
+  "mock":{"type":"list","title":"Common mistake","items":["Adding trucks for the peak","Tracking dispatch only by month"]}}
+],
+"foundation":{"title":"The formula","items":["Last-week share = last-week cases ÷ month cases x 100. Flat is about 25%."]},
+"takeaway":"Size your dock for an even month, not the last week.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
