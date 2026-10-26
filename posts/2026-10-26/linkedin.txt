@@ -1,0 +1,16 @@
+Day 10 of AI in Plain English: how AI gets a calculator, a browser and your calendar.
+
+In simple words: tools are apps the AI is allowed to use, like kit you hand a smart new hire.
+
+On its own, AI only writes from what it learned.
+With tools, it can search today's web, run the numbers or check your diary.
+
+When you see "Searching the web" in ChatGPT, Claude or Copilot, that's a tool at work.
+
+My tip: only switch on the tools a task needs, especially email and files.
+
+Next up on Wednesday: fine-tuning vs prompting.
+
+Which tool would you give your AI first?
+
+#AIinPlainEnglish #AI #LearnAI
