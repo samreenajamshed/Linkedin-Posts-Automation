@@ -1,0 +1,26 @@
+Trucks idle on the 5th. Queuing at the dock on the 28th.
+That's not demand. That's a month-end habit.
+
+Most FMCG warehouses know the rush. Sales chase the monthly target, orders pile into the last week, and dispatch pays for it: overtime, hired trucks, rushed loading, short shipments.
+
+Teach: Dispatch linearity.
+How evenly you ship across the month.
+
+Last-week share = cases dispatched in the final week ÷ cases dispatched in the month x 100
+
+In a 4-week month, flat is about 25%.
+
+Illustrative numbers: 100,000 cases in the month, 40,000 in the last week.
+40,000 ÷ 100,000 = 40%.
+Your dock, fleet and crew get sized for 40,000 a week, then sit half idle at 20,000 in week 1.
+
+Common mistake: adding trucks for month-end. That pays for the peak instead of flattening it.
+
+Monday morning:
+→ Track dispatch by week, not just by month
+→ Agree weekly volume targets with sales, not only a monthly one
+→ Book fixed loading slots for big customers early in the month
+
+What share of your month ships in the last week?
+
+#SupplyChain #Logistics #FMCG
