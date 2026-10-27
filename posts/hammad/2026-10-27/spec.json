@@ -1,0 +1,12 @@
+{"type":"infographic","layout":"howto","palette":"mix","filename":"infographic",
+"audience":"For planners and buyers",
+"kicker":"AI AT WORK · SUPPLIER OTIF",
+"title":"One prompt, every *overdue* PO",
+"subtitle":"OTIF = lines on time and in full ÷ lines due. Illustrative numbers.",
+"steps":["Export open PO lines with confirmed dates","Supplier A: 18 of 20 lines OTIF = 90%","Supplier B: 12 of 20 lines OTIF = 60%","Total: 30 of 40 lines = 75%  →  Call B first"],
+"prompt_label":"COPY THIS PROMPT",
+"prompt":"Group these open PO lines by supplier.\nFlag lines past due or due in 7 days.\nDraft one chase email per supplier.\nRank suppliers by OTIF. Data: [paste]",
+"tools":["ChatGPT","Claude","Copilot in Excel"],
+"tip":"AI drafts the chase. The relationship stays yours.",
+"warn":"Count PO lines, not POs. Leave pricing out.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
