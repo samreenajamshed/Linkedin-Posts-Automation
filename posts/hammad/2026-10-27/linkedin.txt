@@ -1,0 +1,26 @@
+20 open POs. 20 chase emails.
+One prompt drafts them all, and shows which supplier to call first.
+
+Every planner knows the Monday routine: open PO list, copy, paste, chase, repeat.
+The chasing matters. The copy paste does not.
+
+Teach: Supplier OTIF, on time in full.
+The share of PO lines that arrive by the confirmed date and in the full ordered quantity.
+
+Supplier OTIF = PO lines on time and in full ÷ PO lines due
+Illustrative numbers: 40 lines due, 30 on time and in full → 30 ÷ 40 = 75%.
+Common mistake: counting POs, not lines. One short line hides inside a delivered PO.
+
+The prompt:
+"Group these open PO lines by supplier. Flag lines past due or due in 7 days. Draft one short chase email per supplier listing each line, quantity and date needed. Rank suppliers by OTIF on this data."
+
+Monday morning:
+→ Export open PO lines with confirmed dates, no pricing
+→ Run the prompt, check each line against your ERP
+→ Send the emails yourself, and call the worst supplier
+
+AI drafts the chase. The relationship stays yours.
+
+Which supplier KPI do you review every week?
+
+#Procurement #AIinSupplyChain #SupplyChain
