@@ -45,3 +45,4 @@
 {"account": "samreena", "date": "2026-10-26", "pillar": "AI in Plain English", "topic": "Day 10: Tools and plugins", "field": null, "day": 10, "mode": "NATIVE"}
 {"account": "hammad", "date": "2026-10-26", "pillar": "Floor-tested fix", "topic": "Month-end dispatch rush", "concept": "Dispatch linearity, last-week share", "layout": "tiers", "title": "Flatten the month-end spike", "kicker": "FLOOR-TESTED FIX · DISPATCH LINEARITY"}
 {"account": "samreena", "date": "2026-10-27", "pillar": "Before vs after AI", "topic": "Small business: write product descriptions", "field": "small business owners", "mode": "AUTO"}
+{"account": "hammad", "date": "2026-10-27", "pillar": "AI at work", "topic": "Chase open POs with one AI prompt", "concept": "Supplier OTIF by PO line", "layout": "howto", "title": "One prompt, every overdue PO", "kicker": "AI AT WORK · SUPPLIER OTIF"}
