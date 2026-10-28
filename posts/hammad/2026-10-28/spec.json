@@ -1,0 +1,13 @@
+{"type":"infographic","layout":"flow","palette":"mix","filename":"infographic",
+"audience":"For planners and buyers",
+"kicker":"FRAMEWORK · REPLENISHMENT LEAD TIME",
+"title":"Lead time runs on *four* clocks",
+"subtitle":"System plans on 14 days. Reality is 21. Illustrative numbers.",
+"stages":[
+{"name":"PO approval","desc":"Request to released PO. The clock most teams forget.","chips":["3 days"],"highlight":true},
+{"name":"Supplier","desc":"Released PO to goods dispatched. The quote in your system.","chips":["10 days"]},
+{"name":"Transit","desc":"Dispatch to your gate, including customs and queues.","chips":["6 days"]},
+{"name":"Dock-to-stock","desc":"Unloaded to pickable. Inspection, put-away, posting.","chips":["2 days"]}
+],
+"takeaway":"Lead time = approval + supplier + transit + dock-to-stock. Illustrative: 21 days, not 14.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
