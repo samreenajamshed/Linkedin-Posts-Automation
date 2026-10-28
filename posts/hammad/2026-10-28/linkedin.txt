@@ -1,0 +1,26 @@
+Your system says lead time is 14 days.
+The real number is 21. Nobody told the plan.
+
+Most teams store one lead time: the supplier's quote.
+Stock arrives on four clocks, not one.
+
+Replenishment lead time: the full time from deciding to buy until stock can be picked.
+
+Lead time = approval + supplier + transit + dock-to-stock
+
+Illustrative numbers:
+→ PO approval: 3 days
+→ Supplier: 10 days
+→ Transit: 6 days
+→ Dock-to-stock: 2 days
+
+Total: 21 days. The system plans on 14.
+At 100 cases a day, that is 700 cases of demand the reorder point never covered.
+
+The common mistake: blaming the supplier when the missing days sit in your own approvals and your own receiving dock.
+
+Monday morning: take your top 10 SKUs, time the last 5 receipts of each from PO request to pickable, and update the master data.
+
+Which of the four clocks runs longest in your operation?
+
+#SupplyChain #Procurement #DemandPlanning
