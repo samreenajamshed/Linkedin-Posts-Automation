@@ -1,0 +1,15 @@
+Day 11 of AI in Plain English: why most teams never need to train their own AI.
+
+In simple words: prompting is handing a chef a recipe. Fine-tuning is sending the chef to cooking school.
+
+Prompting: you explain what you want each time. Quick and cheap.
+
+Fine-tuning: you train it on many of your own examples so a style sticks. Slower, costs more, needs clean data.
+
+My rule: better prompts first, then let AI read your files. Train only if both fall short.
+
+Next up on Friday: AI that can see, hear and speak.
+
+Which AI word confuses you most? I'll add it to the series.
+
+#AIinPlainEnglish #AI #LearnAI
