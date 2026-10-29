@@ -1,0 +1,35 @@
+6 turns a year sounds fine. Until you split it by SKU.
+One healthy average can hide a year of dead stock.
+
+Finance wants to know how fast the money sitting in stock comes back.
+
+Inventory turns answers that.
+
+Inventory turns: how many times a year your average stock is sold and replaced.
+
+The rule:
+Inventory turns = cost of goods sold ÷ average inventory at cost
+Days of inventory = 365 ÷ turns
+
+Worked example, illustrative numbers:
+→ Cost of goods sold: 120 million a year
+→ Average inventory at cost: 20 million
+→ Turns = 120 ÷ 20 = 6
+→ Days of inventory = 365 ÷ 6 = about 61 days
+
+Two mistakes I see often:
+❌ Sales value on top, cost at the bottom. It flatters the number.
+❌ One month-end snapshot used as the average. Average the 12 month-ends.
+
+And the big one: a site at 6 turns can hold fast movers at 20 and slow SKUs at 1.
+
+Monday morning:
+1. Calculate turns by SKU, not just by site.
+2. List every SKU under 2 turns.
+3. Decide for each one: cut orders, move it through a promotion, or clear it.
+
+Cash does not sit in the bank. It sits on your racks.
+
+What turns does your slowest category run at?
+
+#SupplyChain #FMCG #Operations
