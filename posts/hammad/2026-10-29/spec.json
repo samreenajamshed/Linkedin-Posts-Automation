@@ -1,0 +1,9 @@
+{"type":"infographic","layout":"compare","palette":"mix","filename":"infographic",
+"audience":"For planners, warehouse and finance teams",
+"kicker":"NUMBERS THAT MATTER · INVENTORY TURNS",
+"title":"One average hides *dead* stock",
+"subtitle":"Turns = cost of goods sold ÷ average inventory. Illustrative numbers.",
+"left":{"title":"Common way","items":["Sales value ÷ stock at cost","One month-end snapshot","One turns figure per site","6 turns, so all is fine","Reviewed once a year"]},
+"right":{"title":"Better way","items":["Cost of goods sold ÷ stock at cost","Average of 12 month-ends","Turns by SKU and category","Fast at 20, slow SKUs at 1","Act on every SKU under 2 turns"]},
+"takeaway":"120 ÷ 20 = 6 turns, and 365 ÷ 6 = about 61 days of inventory.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
