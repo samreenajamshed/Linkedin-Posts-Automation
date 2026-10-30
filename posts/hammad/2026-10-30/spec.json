@@ -1,0 +1,11 @@
+{"type":"carousel","filename":"hammad-carousel-2026-10-30","palette":"mix",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+"slides":[
+{"kicker":"PLAYBOOK · DAILY WAREHOUSE KPIS","title":"5 warehouse KPIs to *read* before 9 AM","body":"Lead the day, don't just review it"},
+{"kicker":"KPI 1 · RECEIVING","title":"Dock-to-stock *time*","bullets":["Hours from truck unloaded to stock pickable","Slow put-away is stock you own but can't sell","Chase the oldest pallet still on the dock"]},
+{"kicker":"SUPPLY CHAIN 101 · PICK ACCURACY","title":"Pick accuracy, by *line*","bullets":["Correct lines ÷ lines picked x 100","Illustrative: 1,970 of 2,000 lines = 98.5%","Check at staging, not from complaints"]},
+{"kicker":"KPI 3 · LABOUR","title":"Cases per labour *hour*","bullets":["Cases moved ÷ hours worked on the floor","Compare shift to shift, not site to site","A drop usually means waiting, not slow people"]},
+{"kicker":"KPI 4 · DISPATCH","title":"Truck turnaround *time*","bullets":["Gate in to gate out, per vehicle","Long turnaround means fewer trips per truck","Split it: waiting, loading, paperwork"]},
+{"kicker":"KPI 5 · FRESHNESS","title":"Stock near *expiry*","bullets":["Cases inside your sell-by threshold","Act this week: push, transfer or promote","FEFO picking stops it growing"]},
+{"kicker":"THE TAKEAWAY","title":"Five numbers, one board, *every* morning","body":"Save this for your next review."}
+]}
