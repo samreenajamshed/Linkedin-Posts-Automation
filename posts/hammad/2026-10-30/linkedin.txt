@@ -1,0 +1,19 @@
+A warehouse KPI read at 5 PM is a post-mortem.
+Read it before 9 AM and it becomes the plan for the day.
+
+The slides show the 5 numbers I'd put on a morning board at the dock. One of them needs a closer look.
+
+Pick accuracy: the share of order lines picked with the right item, quantity and batch.
+
+Pick accuracy = correct lines ÷ lines picked x 100
+
+Illustrative numbers: 1,970 correct of 2,000 lines = 98.5%.
+Sounds good. It can still mean 30 deliveries with a problem today.
+
+Common mistake: counting errors only when a customer complains. Check at the staging lane, before the truck door closes.
+
+Monday morning: one board, 5 numbers, and the shift supervisor explains each one.
+
+Which KPI would you add to your morning board?
+
+#Warehousing #SupplyChain #Operations
