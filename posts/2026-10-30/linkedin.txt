@@ -1,0 +1,13 @@
+Day 12 of AI in Plain English: AI can read a photo of your whiteboard and turn it into notes.
+
+In simple words: multimodal AI can see, hear and speak, not just read what you type.
+
+At work, you can share a screenshot of an error, a photo of a receipt or a voice note, and ask about it.
+
+One caution: AI can misread blurry photos or messy handwriting. Check names and numbers before you use them.
+
+Next up on Monday: why AI needs clean data.
+
+What would you snap a photo of and ask AI about first?
+
+#AIinPlainEnglish #AI #LearnAI
