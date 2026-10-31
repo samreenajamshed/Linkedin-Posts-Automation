@@ -10,9 +10,9 @@ Illustrative numbers:
 When stock hits 1,300, the order goes.
 
 The common mistake: setting it once and forgetting it.
-Demand moves. Lead time moves. The trigger must move with them.
+Demand moves. Lead time moves. So must the trigger.
 
-Monday morning: take your top 20 SKUs and recalculate with the last 8 weeks of demand and the lead time you actually got.
+Monday: recalculate your top 20 SKUs with the last 8 weeks of demand and the lead time you actually got.
 
 When did you last review your reorder points?
 
