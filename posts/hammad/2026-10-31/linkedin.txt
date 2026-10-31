@@ -1,0 +1,19 @@
+Most stockouts are planning problems.
+Often the supplier delivered on time. The order went out late.
+
+Reorder point: the stock level that tells you to order now, not when the shelf looks low.
+
+Reorder point = daily demand x lead time in days + safety stock
+
+Illustrative numbers:
+200 cases a day x 5 days + 300 cases safety stock = 1,300 cases.
+When stock hits 1,300, the order goes.
+
+The common mistake: setting it once and forgetting it.
+Demand moves. Lead time moves. The trigger must move with them.
+
+Monday morning: take your top 20 SKUs and recalculate with the last 8 weeks of demand and the lead time you actually got.
+
+When did you last review your reorder points?
+
+#SupplyChain #DemandPlanning #FMCG
