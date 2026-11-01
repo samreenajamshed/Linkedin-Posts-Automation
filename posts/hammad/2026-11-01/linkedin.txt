@@ -1,0 +1,30 @@
+April and May 2012: the highest dispatch in Coke Pakistan's history.
+The lesson I kept was not about stock. It was about the dock.
+
+In peak season everyone asks for more trucks and more space.
+But a warehouse can only ship as fast as it can load.
+
+Supply chain 101: dock throughput.
+How many trucks your loading bays can turn in a day.
+
+The rule:
+Trucks per day = bays x loading hours ÷ hours per truck
+
+Illustrative numbers:
+6 bays x 20 hours ÷ 1.25 hours per truck = 96 trucks a day
+Cut loading to 1 hour per truck: 6 x 20 ÷ 1 = 120 trucks
+That is 25% more dispatch with no new bay and no new truck.
+
+That same May we reached 100% palletised dispatch. Pallets load faster than loose cases.
+
+Common mistake: buying trucks or space when the queue is at the dock.
+A truck waiting to load is capacity you already paid for.
+
+Monday morning:
+→ Time 10 truck loads, gate in to gate out
+→ Split it: waiting, loading, paperwork
+→ Fix the biggest slice first
+
+Which slice eats most of your loading time?
+
+#SupplyChain #Warehousing #FMCG
