@@ -1,0 +1,21 @@
+HR friends keep asking me where to start with AI.
+
+After 7+ years building data and AI systems, my answer never changes.
+
+Start with writing. Not deciding.
+
+AI is great at first drafts:
+→ a job ad from your messy notes
+→ 8 interview questions for one specific role
+→ a kind, clear rejection email
+→ a week-one onboarding checklist
+
+AI is risky when it decides who moves forward. It can copy bias from past hiring data, and it sounds confident even when it is wrong.
+
+So the rule I give them: AI writes, you decide.
+
+One safety note: never paste CVs, names or salaries into a public chatbot. Use your company-approved tool, and a human makes every hiring call.
+
+Which HR task would you hand to AI first?
+
+#HR #AIatWork #Recruiting
