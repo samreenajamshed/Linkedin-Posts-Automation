@@ -55,3 +55,4 @@
 {"account": "samreena", "date": "2026-10-31", "pillar": "Poll", "topic": "Students & job seekers: first job-hunt task for AI", "field": "students & job seekers", "day": null, "mode": "MANUAL"}
 {"account": "hammad", "date": "2026-10-31", "pillar": "Quick take", "topic": "Most stockouts are planning problems", "concept": "Reorder point", "layout": "compare", "title": "Order on the trigger, not the gap", "kicker": "QUICK TAKE · REORDER POINT"}
 {"account": "samreena", "date": "2026-11-01", "pillar": "Short lesson from the field", "topic": "HR & recruiters: AI writes, you decide", "field": "HR & recruiters", "day": null, "mode": "AUTO"}
+{"account": "hammad", "date": "2026-11-01", "pillar": "Career story", "topic": "Record dispatch months at Coke: the dock sets the ceiling", "concept": "Dock throughput, trucks per day", "layout": "flow", "title": "Your dispatch ceiling is the dock", "kicker": "CAREER LESSON · DOCK THROUGHPUT"}
