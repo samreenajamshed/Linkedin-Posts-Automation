@@ -1,0 +1,17 @@
+Day 13 of AI in Plain English: why AI gives confident wrong answers from messy files.
+
+In simple words: garbage in, confident garbage out.
+
+AI can't tell that your sheet has duplicate rows, old prices or blank cells. It reads what you give it and answers as if it's all true.
+
+So a messy sales file becomes a neat summary with wrong numbers.
+
+Before asking AI about your data, clean it: remove duplicates, fix dates, delete old tabs.
+
+In one of my data roles, adding checks before reports went out cut reporting errors by 35%.
+
+Next up on Wednesday: AI bias.
+
+What's the messiest file you've had to work with?
+
+#AIinPlainEnglish #AI #LearnAI
