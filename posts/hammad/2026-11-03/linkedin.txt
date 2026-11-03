@@ -1,0 +1,26 @@
+Two hours of S&OP. Not one decision written down.
+Next month, the same debate starts again.
+
+Running national S&OP in a volatile edible-oil market taught me this: a meeting without a written decision is just a conversation.
+
+AI now does the boring part in minutes.
+
+Paste the meeting transcript or your rough notes and ask:
+"From these S&OP notes, list every decision made. For each one give the decision, the owner, the due date and the KPI it affects. Flag any decision with no owner or no date."
+
+What you get: a draft decision log before people leave the room.
+
+The concept behind it, the S&OP decision log:
+→ One line per decision: what, who, by when.
+→ Action closure rate = actions closed on time ÷ actions due x 100
+→ Illustrative numbers: 18 actions due, 12 closed on time = 67%.
+
+If that rate keeps falling, the problem is the process, not the forecast.
+
+The check: AI drafts, the S&OP owner confirms every line. Transcripts carry prices and volumes, so use only a company-approved tool.
+
+This week: open your next S&OP meeting with last month's log, not the new numbers.
+
+How do you track S&OP actions today?
+
+#SOP #AIinSupplyChain #DemandPlanning
