@@ -1,0 +1,16 @@
+{"type":"infographic","filename":"infographic","layout":"tiers",
+ "audience":"For planners and S&OP leads",
+ "kicker":"AI AT WORK · S&OP DECISION LOG",
+ "title":"No owner, no date, no *decision*",
+ "subtitle":"Same meeting. A different starting point.",
+ "tier_colors":"classic",
+ "tiers":[
+  {"name":"By hand","tagline":"Someone types the minutes","lines":["Minutes arrive two days later.","Owners and dates go missing."],
+   "mock":{"type":"list","title":"Minutes","items":["Discussed pricing","Review stock","Follow up"]}},
+  {"name":"Notes + AI","tagline":"Transcript + assistant","lines":["You paste the transcript.","AI drafts decisions and owners."],
+   "mock":{"type":"assistant","title":"S&OP notes","label":"Assistant","ask":"List decisions + owners"}},
+  {"name":"Decision log","tagline":"Ready before you leave","lines":["AI flags missing owners and dates.","The S&OP owner confirms each line."],
+   "mock":{"type":"briefing","greeting":"Decision log, draft for review","headline":"6 decisions, 2 gaps","lines":["No owner: freight","No date: promo stock"]}}],
+ "foundation":{"title":"Action closure rate = closed on time ÷ due","items":["Approved tools","Clear owners","Human sign-off"]},
+ "author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+ "palette":"mix"}
