@@ -1,0 +1,30 @@
+Four KPIs at 95%. Your customer sees 83%.
+
+Transport is proud of on time. The warehouse is proud of fill. Finance is happy with invoices.
+
+The customer only sees one order. It has to be right at every step.
+
+One concept worth knowing: perfect order rate.
+The share of orders that arrive on time, in full, undamaged and with a correct invoice. All four, on the same order.
+
+Perfect order rate = on time % × in full % × damage free % × invoice accuracy %
+
+Illustrative numbers:
+→ On time 95%
+→ In full 93%
+→ Damage free 98%
+→ Invoice right 96%
+0.95 × 0.93 × 0.98 × 0.96 = 83%
+
+So about 1 order in 6 fails somewhere, while every team reports green.
+
+The common mistake: averaging the four. That gives 95.5% and hides the problem. Failures stack, they don't average.
+
+What I'd do Monday morning:
+1. Score a sample of last week's orders against all four checks.
+2. Find the check that fails most often.
+3. Fix that one first. The weakest gate caps the whole chain.
+
+Which of the four fails most often in your operation?
+
+#SupplyChain #Logistics #FMCG
