@@ -1,0 +1,15 @@
+Day 14 of AI in Plain English: why AI can be unfair without meaning to be.
+
+In simple words: AI is a mirror of the examples it learned from.
+
+If most past examples of a "good manager" were men, AI may lean that way too.
+
+You can see this in CV screening, loan checks, even the pictures AI draws.
+
+My rule at work: treat AI's answer as a draft, not a verdict. Ask who might be left out, and let a human make the final call.
+
+Next up on Friday: the creativity dial, also called temperature.
+
+Where have you seen AI get people wrong?
+
+#AIinPlainEnglish #AI #AIforEveryone
