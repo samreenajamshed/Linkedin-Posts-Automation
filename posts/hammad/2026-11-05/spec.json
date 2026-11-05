@@ -1,0 +1,10 @@
+{"type":"infographic","filename":"infographic","layout":"compare",
+ "audience":"For warehouse and inventory teams",
+ "kicker":"NUMBERS THAT MATTER · DOCK-TO-STOCK TIME",
+ "title":"On the rack, *missing* in the system",
+ "subtitle":"Illustrative numbers: one inbound truck, 40 pallets",
+ "left":{"title":"Clock stops at the rack","items":["08:00 truck unloaded","11:00 pallets put away","Report says 3 hours","Orders still cut short at 4 PM"]},
+ "right":{"title":"Clock stops at pickable","items":["18:00 GRN posted and QA released","True dock-to-stock: 10 hours","7 hours of stock nobody could sell","Fix: post the GRN at put-away by scan"]},
+ "takeaway":"Dock-to-stock time = hours from unload to pickable in the system",
+ "author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+ "palette":"mix"}
