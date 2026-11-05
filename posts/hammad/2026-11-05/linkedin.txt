@@ -1,0 +1,30 @@
+The stock was on the rack by 11 AM.
+The system only saw it at 6 PM. Every order in between was cut short.
+
+That gap has a name, and most warehouses measure it wrong.
+
+Dock-to-stock time: how long received goods take to become available to pick and sell.
+
+The rule:
+Dock-to-stock time = hours from truck unloaded to stock pickable in the system
+Average dock-to-stock = total dock-to-stock hours ÷ receipts
+
+Worked example, illustrative numbers:
+→ 08:00 truck unloaded, 40 pallets
+→ 11:00 pallets put away
+→ 18:00 goods receipt, GRN, posted and QA released
+
+Floor view: 3 hours. Real dock-to-stock: 10 hours.
+For 7 of those hours the stock was there, but order allocation could not see it.
+
+The common mistake: stopping the clock at the rack. Customers feel the system clock, not the floor clock.
+
+What to do Monday:
+1. Pull unload time and GRN posting time for last week's receipts.
+2. Split the gap: unload to put-away, put-away to posting, posting to release.
+3. Post the GRN at put-away by scan, not at end of shift.
+4. Set a target per inbound type, chilled and fast movers first.
+
+Which step adds the most hours in your receiving?
+
+#Warehousing #SupplyChain #Operations
