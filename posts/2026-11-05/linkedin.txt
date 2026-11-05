@@ -1,0 +1,14 @@
+Clinic admin teams: AI can write your patient messages. It should never see your patient files.
+
+Appointment reminders, rescheduling notes, "what to bring" lists, replies to common questions. AI gives you a first draft in a minute.
+
+❌ Don't paste names, phone numbers, reports or diagnoses into a public chatbot.
+✅ Do ask for a template with blanks, then fill in the details inside your clinic system.
+
+Why it works: AI writes the wording, your team keeps the data.
+
+Use only your clinic's approved tool. A person checks every message, and health questions go to your medical staff, never to AI.
+
+Which clinic task should I turn into a template next?
+
+#HealthcareAdmin #AIatWork #DataPrivacy
