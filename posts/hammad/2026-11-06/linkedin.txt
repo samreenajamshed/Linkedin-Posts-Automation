@@ -1,0 +1,15 @@
+Fix the same miss three times and you haven't fixed it once.
+You stopped at the first why.
+
+The 5 Whys: ask why, then ask why of that answer, until you reach a process you can change, not a person you can blame.
+
+The first answer is usually the symptom: "the picker missed it."
+The third or fourth is usually the cause: a rule, a handoff or a master data field nobody owns.
+
+The carousel walks one missed truck through the chain, as an illustrative example.
+
+Monday morning: pick the miss your team re-fixes most and ask why in the room with the people who do the work.
+
+What's the issue your team keeps re-fixing?
+
+#SupplyChain #Operations #DemandPlanning
