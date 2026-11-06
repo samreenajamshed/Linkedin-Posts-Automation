@@ -1,0 +1,17 @@
+Day 15 of AI in Plain English: why AI gives you a different answer each time you ask.
+
+In simple words: AI has a creativity dial, called temperature.
+
+Turn it down and AI picks the safest next word. Same question, almost the same answer.
+
+Turn it up and it takes more chances. Fresh ideas, but more slips.
+
+Low for facts, numbers and policies. High for slogans, names and brainstorms.
+
+Most chat apps set the dial for you. Your words still help: "be precise" or "give me 10 wild ideas".
+
+Next up on Monday: open vs closed models.
+
+What do you use AI for more, facts or ideas?
+
+#AIinPlainEnglish #AI #LearnAI
