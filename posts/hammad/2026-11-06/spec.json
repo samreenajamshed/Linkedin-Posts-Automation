@@ -1,0 +1,11 @@
+{"type":"carousel","filename":"hammad-carousel-2026-11-06","palette":"mix",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+"slides":[
+{"kicker":"PLAYBOOK · 5 WHYS","title":"Stop fixing the same miss *twice*","body":"A root cause playbook for planners and warehouse leads"},
+{"kicker":"SUPPLY CHAIN 101 · 5 WHYS","title":"What the 5 Whys *is*","bullets":["Ask why, then ask why of that answer","Stop at a process you can change","Usually 3 to 5 rounds, not exactly five"]},
+{"kicker":"STEP 1 · DEFINE","title":"Write the miss as a *fact*","bullets":["What, where, when and how much","Illustrative: one SKU missed two trucks","No names, no guesses"]},
+{"kicker":"STEP 2 · ASK","title":"Ask why with the *floor*","bullets":["Bring the picker, planner and driver","Every answer needs evidence: a report or scan","Two causes? Run two chains"]},
+{"kicker":"STEP 3 · ILLUSTRATIVE EXAMPLE","title":"One missed truck, *five* whys","bullets":["Not loaded → pick face empty → top-up late","Top-up late → min level in system is old","Old min level → no owner after a pack change"]},
+{"kicker":"STEP 4 · FIX","title":"Fix the process, not the *person*","bullets":["Name an owner and a review date","Change the rule, SOP or master data","Check in 30 days: did it come back?"]},
+{"kicker":"THE TAKEAWAY","title":"If it comes back, you fixed a *symptom*","body":"Save this for your next review."}
+]}
