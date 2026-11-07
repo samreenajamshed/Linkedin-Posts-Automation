@@ -1,0 +1,17 @@
+Lawyers and legal assistants, quick poll for you.
+
+AI can summarise a long contract fast. The hard part is trusting it: it can sound sure and still skip a clause or invent a reference.
+
+Vote for how your team checks an AI summary.
+
+I'll share my pick and a simple checking prompt in the comments.
+
+Never paste client details into a public chatbot. Use your firm's approved tool, and a lawyer makes the final call.
+
+#LegalTech #AIatWork #AI
+
+POLL Q: When AI summarises a contract, how do you check it?
+OPT 1: I reread the full contract
+OPT 2: I spot-check key clauses
+OPT 3: A colleague reviews it
+OPT 4: We don't use AI for this yet
