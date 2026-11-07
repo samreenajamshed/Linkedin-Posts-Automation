@@ -1,0 +1,16 @@
+A 98% full warehouse is not efficient.
+It's a warehouse with no room for tomorrow's trucks.
+
+On a cost report, empty pallet positions look like waste. On the floor, they are your working space.
+
+Storage headroom: the free space left for what arrives next.
+Headroom = usable pallet positions minus occupied positions.
+
+Illustrative numbers: 1,000 positions, 980 full, so 20 free.
+Tomorrow 120 pallets arrive. 100 of them sit in the aisle and get handled twice.
+
+The fix: check headroom against your biggest inbound day, not utilisation alone.
+
+What utilisation do you treat as full?
+
+#Warehousing #SupplyChain #Operations
