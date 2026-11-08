@@ -1,0 +1,19 @@
+Finance folks: the hard part of reconciliation was never the lines that match.
+
+At IFFCO Pakistan, I built reconciliation pipelines across 12+ distributors.
+
+Most lines matched on their own. The real work hid in the few that didn't: a missing credit note, a price change one side missed, an invoice booked twice.
+
+The rule I still use with AI:
+→ Let the tool sort the matches.
+→ Spend your time on the exceptions.
+
+Try it on your next vendor statement. Paste your ledger and the statement into ChatGPT, Copilot or Gemini: "Compare these two lists. Show only the lines that don't match, as a table with date, amount and a likely reason."
+
+Check each flagged line against the source yourself. AI points, you decide.
+
+Remove account numbers and names first, or use your company-approved tool.
+
+What's the most annoying mismatch you chase every month?
+
+#Finance #AIatWork #Accounting
