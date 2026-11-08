@@ -1,0 +1,26 @@
+Zambia taught me to plan the bottle before the drink.
+In beverages, a production plan without preforms is just a wish.
+
+At Big Tree Beverages in Lusaka, my job included turning sales forecasts into production plans, then making sure the preforms and sleeves were there to run them.
+
+The plastic plants needed our numbers early. Inbound shipments had their own lead times. So the real plan was not the filling schedule. It was the material plan behind it.
+
+Supply Chain 101: net requirements.
+The quantity you still need to order after counting what you have and what is already coming.
+
+Net requirement = planned need minus stock on hand minus confirmed inbound plus safety buffer
+
+Illustrative numbers, preforms for the next 2 weeks:
+→ Plan: 600,000 bottles, so 600,000 preforms
+→ On hand: 250,000
+→ Confirmed inbound: 200,000
+→ Safety buffer: 50,000
+→ Net requirement: 200,000 to order now
+
+Common mistake: counting stock that is blocked, damaged or already promised to another line.
+
+Monday morning: take your top 5 SKUs, break each into its packaging, and check the net requirement against each supplier's lead time.
+
+Which packaging item has caught your plan off guard?
+
+#SupplyChain #DemandPlanning #FMCG
