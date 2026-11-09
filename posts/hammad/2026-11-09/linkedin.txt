@@ -1,0 +1,29 @@
+Freight rates didn't change. The freight bill still crept up.
+The trucks were leaving the gate with air in them.
+
+It's a pattern I've seen more than once. Every urgent order gets its own truck. Every distributor wants the early slot. Nobody signs off a cost increase, yet cost per case drifts up month after month.
+
+Teach: vehicle fill rate.
+Plain English: how full a truck is when it leaves the gate.
+
+Vehicle fill rate = cases loaded ÷ truck capacity in cases
+
+Illustrative numbers:
+→ Truck capacity 1,000 cases, average load 650. Fill rate: 65%.
+→ 100 trips a month move 65,000 cases.
+→ At 90% fill, the same cases need about 73 trips.
+→ That's 27 trips paid for to move air.
+
+Common mistake: watching the rate per trip and ignoring fill. A cheap trip at 60% full is an expensive case.
+
+What to do Monday morning:
+1. Report fill rate by route every day, next to OTD.
+2. Set a minimum load rule, with one named person who approves exceptions.
+3. Plan loads by route and drop sequence, not order by order.
+4. Agree delivery windows with distributors so orders can be combined.
+
+Fill and service pull against each other. The job is to see that trade-off, not hide it.
+
+What fill rate do your trucks leave the gate with?
+
+#Logistics #SupplyChain #FMCG
