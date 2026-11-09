@@ -1,0 +1,15 @@
+Day 16 of AI in Plain English: why some AI is free to download and some isn't.
+
+In simple words: closed AI is eating out, open AI is cooking at home.
+
+Closed models like ChatGPT, Claude and Gemini run on the company's servers. A polished meal, but no recipe.
+
+Open models like Llama, Mistral and Gemma can be downloaded and run on your own computers. More work, but your data can stay in-house.
+
+Neither is better. It depends on how private your data is and who will run it.
+
+Next up on Wednesday: frameworks like LangChain.
+
+Which AI word confuses you most? I'll add it to the series.
+
+#AIinPlainEnglish #AI #LearnAI
