@@ -1,0 +1,12 @@
+{"type":"infographic","layout":"howto","palette":"mix","filename":"infographic",
+"audience":"For planners and warehouse leads",
+"kicker":"AI AT WORK · STOCK AT EXPIRY RISK",
+"title":"Ten SKUs, not *400* lines",
+"subtitle":"Cases at risk = stock on hand minus daily sales x days left to sell. Illustrative numbers.",
+"steps":["Days left to sell: 75 to expiry minus 45 = 30","Can sell: 30 days x 40 cases = 1,200","Stock on hand: 1,800 cases","At risk: 600 cases  →  act this week"],
+"prompt_label":"COPY THIS PROMPT",
+"prompt":"For each SKU and batch, calculate\ncases at risk before customer cut-off.\nRank the top 10 by value at risk.\nSuggest one action: transfer, promote\nor slow production. Data: paste below",
+"tools":["ChatGPT","Claude","Copilot in Excel"],
+"tip":"Sort by risk, not by age.",
+"warn":"Check shelf-life master data first. A human signs off every action.",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
