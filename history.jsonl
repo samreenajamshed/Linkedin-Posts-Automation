@@ -73,3 +73,4 @@
 {"account": "samreena", "date": "2026-11-09", "pillar": "AI in Plain English", "topic": "Day 16: Open vs closed models", "field": null, "day": 16, "mode": "NATIVE"}
 {"account": "hammad", "date": "2026-11-09", "pillar": "Floor-tested fix", "topic": "Freight cost creep from part-loaded trucks", "concept": "Vehicle fill rate", "layout": "compare", "title": "Stop paying to move air", "kicker": "FLOOR-TESTED FIX · VEHICLE FILL RATE"}
 {"account": "samreena", "date": "2026-11-10", "pillar": "Before vs after AI", "topic": "Sales: prep a client meeting brief", "field": "sales", "day": null, "mode": "AUTO"}
+{"account": "hammad", "date": "2026-11-10", "pillar": "AI at work", "topic": "Ageing report to the 10 SKUs to act on with one AI prompt", "concept": "Stock at expiry risk, cases at risk before customer cut-off", "layout": "howto", "title": "Ten SKUs, not 400 lines", "kicker": "AI AT WORK · STOCK AT EXPIRY RISK"}
