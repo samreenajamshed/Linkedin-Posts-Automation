@@ -1,0 +1,27 @@
+Your ageing report has 400 lines.
+You only need to act on 10 of them.
+
+Most teams sort ageing by oldest stock first. That's the wrong list.
+Old stock that sells fast is fine. Younger stock that sells slowly is the real write-off.
+
+The concept: stock at expiry risk.
+The cases that won't sell before customers stop accepting them.
+
+Days left to sell = days to expiry minus customer minimum shelf life
+Cases at risk = stock on hand minus average daily sales x days left to sell
+
+Illustrative numbers:
+1,800 cases, 75 days to expiry, customers need 45 days left.
+30 days left to sell x 40 cases a day = 1,200 cases.
+600 cases at risk. Act this week, not at month end.
+
+Where AI saves the hour: paste the ageing report with sales by SKU and batch, then ask:
+"Calculate cases at risk for each SKU and batch. Rank the top 10 by value at risk. Suggest one action for each: transfer, promote or slow production."
+
+The check: shelf life and sales data must be right first, and a human signs off every action. Keep customer and cost data out of public tools.
+
+Monday morning → run it on your slowest depot.
+
+Which works best for you on at-risk stock: transfer, promotion or a production cut?
+
+#SupplyChain #AIinSupplyChain #Warehousing
