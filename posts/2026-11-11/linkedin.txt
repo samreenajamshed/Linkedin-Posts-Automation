@@ -1,0 +1,15 @@
+Day 17 of AI in Plain English: how AI apps reach your files and your tools.
+
+In simple words: frameworks like LangChain are the plumbing between the AI and everything else.
+
+The AI model is the brain. On its own it can't open your files, search a database or send an email.
+
+A framework connects the pipes: fetch the data, hand it to the AI, run the tool, return the answer.
+
+Developers use them so they don't build every pipe from scratch. You never see the plumbing, only the tap.
+
+Next up on Friday: AI memory, and why chatbots forget.
+
+Which AI word confuses you most? I'll add it to the series.
+
+#AIinPlainEnglish #AI #LearnAI
