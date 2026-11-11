@@ -1,0 +1,26 @@
+Demand barely moved. Every order upstream went wild.
+That's the bullwhip effect, and most of it is self-made.
+
+Bullwhip effect: small swings in real sales grow bigger at every step back up the chain.
+
+Bullwhip ratio = swing in orders placed ÷ swing in real sales
+Above 1 means you are amplifying demand, not passing it on.
+
+Illustrative numbers:
+→ Shop sales move 5% week to week
+→ Distributor orders move 15%
+→ Plant schedule moves 30%
+→ Preform and sleeve orders move 50%
+
+Same shoppers. Ten times the noise at the far end.
+
+What cracks the whip:
+1. Ordering in big batches
+2. Month-end loading and promotions
+3. Every link forecasting from orders, not sales
+
+Monday morning: put distributor sell-out next to their orders for the last 8 weeks. If orders swing harder, plan from sell-out.
+
+Where have you seen the whip crack hardest?
+
+#SupplyChain #DemandPlanning #FMCG
