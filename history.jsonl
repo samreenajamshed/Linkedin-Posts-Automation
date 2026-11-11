@@ -75,3 +75,4 @@
 {"account": "samreena", "date": "2026-11-10", "pillar": "Before vs after AI", "topic": "Sales: prep a client meeting brief", "field": "sales", "day": null, "mode": "AUTO"}
 {"account": "hammad", "date": "2026-11-10", "pillar": "AI at work", "topic": "Ageing report to the 10 SKUs to act on with one AI prompt", "concept": "Stock at expiry risk, cases at risk before customer cut-off", "layout": "howto", "title": "Ten SKUs, not 400 lines", "kicker": "AI AT WORK · STOCK AT EXPIRY RISK"}
 {"account": "samreena", "date": "2026-11-11", "pillar": "AI in Plain English", "topic": "Day 17: Frameworks like LangChain", "field": null, "day": 17, "mode": "NATIVE"}
+{"account": "hammad", "date": "2026-11-11", "pillar": "Framework infographic", "topic": "The bullwhip effect: small sales swings, big upstream swings", "concept": "Bullwhip effect and bullwhip ratio", "layout": "flow", "title": "Small ripple at the shelf, big whip upstream", "kicker": "FRAMEWORK · BULLWHIP EFFECT"}
