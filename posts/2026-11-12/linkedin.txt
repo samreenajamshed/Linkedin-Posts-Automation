@@ -1,0 +1,14 @@
+Support teams: you answer the same questions every week. Turn them into help articles with AI.
+
+Here's how to do it without creating new problems:
+
+→ Paste your own fix notes and 3 real tickets, with names and order numbers removed.
+→ Ask for short, numbered steps in plain words.
+→ Follow every step yourself before you publish.
+→ Never let AI guess a policy, price or deadline. Link the official page.
+
+Why it works: AI is good at structure and plain language. Your team knows what actually fixes the problem.
+
+Which question do your customers ask most?
+
+#CustomerSupport #AIatWork #CustomerExperience
