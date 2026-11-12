@@ -1,0 +1,31 @@
+Your warehouse rent is the cheapest part of holding stock.
+Most teams count 5% a year and miss the other 20%.
+
+In stock reviews, the talk is about space and handling.
+The bigger bill sits in finance, in lines nobody adds up.
+
+Supply chain 101: inventory carrying cost.
+What it costs per year to keep stock on hand, not to buy it.
+
+Carrying cost = average inventory value x carrying cost rate
+
+Illustrative numbers, average stock of PKR 50 million:
+→ Cost of cash tied up: 12%
+→ Storage and handling: 5%
+→ Insurance and tax: 2%
+→ Shrinkage and damage: 2%
+→ Expiry and obsolescence: 4%
+
+Rate = 25%. Carrying cost = PKR 12.5 million a year.
+Count storage and handling alone and you see 2.5 million.
+
+The common mistake: treating extra stock as "safe". In FMCG, every extra day of cover spends cash, space and shelf life.
+
+What to do this week:
+1. Agree your carrying cost rate with finance, in writing.
+2. Put it next to every stock target in S&OP.
+3. Price the slow movers first.
+
+What carrying cost rate does your business use?
+
+#SupplyChain #Operations #FMCG
