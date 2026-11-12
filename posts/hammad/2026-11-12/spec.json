@@ -1,0 +1,15 @@
+{"type":"infographic","filename":"infographic","layout":"tiers",
+ "audience":"For planners, finance and warehouse leads",
+ "kicker":"NUMBERS THAT MATTER · CARRYING COST",
+ "title":"Rent is the *cheapest* part of stock",
+ "subtitle":"Illustrative numbers: average stock of PKR 50 million",
+ "tiers":[
+  {"name":"Rent only","tagline":"What most stock reviews count","lines":["Storage and handling: 5%","Looks like PKR 2.5M a year"],
+   "mock":{"type":"list","title":"Counted","items":["Storage and handling 5%"]}},
+  {"name":"Plus cash","tagline":"Add the money tied up in stock","lines":["Cost of cash: 12%","Now PKR 8.5M a year"],
+   "mock":{"type":"chart","title":"Cost so far","label":"Rate","value":"17%","note":"PKR 8.5M","bars":[5,5,17]}},
+  {"name":"Full cost","tagline":"Add the risk on the shelf","lines":["Insurance 2%, shrinkage 2%, expiry 4%","True cost: PKR 12.5M a year"],
+   "mock":{"type":"chart","title":"Carrying cost","label":"Rate","value":"25%","note":"PKR 12.5M","bars":[5,17,25]}}],
+ "foundation":{"title":"Carrying cost = average inventory value x carrying cost rate","items":["Agree the rate with finance","Show it in S&OP","Price slow movers first"]},
+ "author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"},
+ "palette":"mix"}
