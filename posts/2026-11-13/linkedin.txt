@@ -1,0 +1,15 @@
+Day 18 of AI in Plain English: why does ChatGPT forget you by tomorrow?
+
+In simple words: most chatbots hand you a fresh notepad for every new chat.
+
+Each chat starts blank. It only sees that one conversation.
+
+Some tools now have a memory feature. They save short notes about you, like your job or preferred tone, and read them before each new chat.
+
+Handy, but check what it saved. You can view and delete those notes in settings. Keep confidential details out.
+
+Next up on Monday: marking AI's homework before you trust it.
+
+Would you turn AI memory on or off?
+
+#AIinPlainEnglish #AI #LearnAI
