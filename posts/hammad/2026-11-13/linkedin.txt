@@ -1,0 +1,19 @@
+Change the plan inside the frozen week and you pay twice.
+Once on the line, then again on the orders you bumped.
+
+The fix is a planning time fence: an agreed line in the calendar that says how freely the plan may change.
+
+→ Frozen: the next 1 to 2 weeks. A change needs a named approver.
+→ Slushy: weeks 3 to 4. Changes inside agreed limits only.
+→ Liquid: beyond that. Replan freely.
+
+How to track it:
+Schedule adherence = batches made as planned ÷ batches planned.
+Illustrative numbers: 34 of 40 batches = 85%.
+
+On Monday, log every fence break with one reason and who approved it.
+Repeat reasons point to a process gap, not a planning one.
+
+Where does your frozen zone sit today?
+
+#DemandPlanning #SupplyChain #FMCG
