@@ -79,3 +79,4 @@
 {"account": "samreena", "date": "2026-11-12", "pillar": "Do / Don't", "topic": "Customer support: help articles from tickets", "field": "customer support", "day": null, "mode": "AUTO"}
 {"account": "hammad", "date": "2026-11-12", "pillar": "Numbers that matter", "topic": "Inventory carrying cost: rent is the cheapest part of holding stock", "concept": "Inventory carrying cost and carrying cost rate", "layout": "tiers", "title": "Rent is the cheapest part of stock", "kicker": "NUMBERS THAT MATTER · CARRYING COST"}
 {"account": "samreena", "date": "2026-11-13", "pillar": "AI in Plain English", "topic": "Day 18: AI memory", "field": null, "day": 18, "mode": "NATIVE"}
+{"account": "hammad", "date": "2026-11-13", "pillar": "Playbook carousel", "topic": "Planning time fences: when the plan is allowed to change", "concept": "Planning time fences and schedule adherence", "layout": "carousel", "title": "Change the plan late, pay twice", "kicker": "PLAYBOOK · TIME FENCES"}
