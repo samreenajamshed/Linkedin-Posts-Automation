@@ -1,0 +1,8 @@
+{"type":"infographic","layout":"compare","palette":"mix",
+"kicker":"QUICK TAKE · CASES PER LABOUR HOUR",
+"title":"Overtime is not *capacity*",
+"subtitle":"Same cases shipped, 20 more hours paid. Illustrative numbers",
+"left":{"title":"Common view: add overtime","items":["Backlog? Approve more hours","Track total cases shipped only","Same layout, same flow, longer shift","Cost rises, output per hour falls"]},
+"right":{"title":"Better view: find lost hours","items":["Cases per labour hour, by shift","Shift A 150, Shift B 120 per hour","Log waiting, searching, empty walks","Fix the gap, then decide on overtime"]},
+"takeaway":"Cases per labour hour = cases handled ÷ paid labour hours",
+"author":{"name":"Hammad Ulhaq","role":"Head of Supply Chain · 20+ yrs FMCG & Beverages","initials":"HU"}}
