@@ -1,0 +1,16 @@
+Same cases shipped. 20 more labour hours paid.
+
+When the dock falls behind, the first answer is usually overtime. Often the real gap is productivity, not headcount.
+
+Labour productivity: how much work each paid hour produces.
+Cases per labour hour = cases handled ÷ paid labour hours
+
+Illustrative numbers:
+→ Shift A: 12,000 cases ÷ 80 hours = 150 per hour
+→ Shift B: 12,000 cases ÷ 100 hours = 120 per hour
+
+Before approving overtime, find where the 20 hours went: waiting for trucks, searching for stock, walking empty.
+
+Which hour of your shift loses the most time?
+
+#Warehousing #Operations #SupplyChain
