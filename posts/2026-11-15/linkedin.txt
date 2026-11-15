@@ -1,0 +1,18 @@
+Teachers, one lesson for 30 different learners is the hardest part of the job.
+
+Friends who teach often ask me where to start with AI. My answer comes from 7+ years in data work.
+
+The hard part was rarely the numbers. It was explaining one result to a CEO and to a warehouse team, in words each of them could follow.
+
+Your classroom has that problem every day.
+
+So start here. Paste one explanation you already teach and add:
+"You are a helpful teaching assistant. Rewrite this for my grade 7 class at three levels: simpler, on level and stretch. Keep the key facts the same. Add 2 check questions for each level."
+
+Why it works: you bring the content and the judgment. AI only does the rewriting.
+
+Read every version before class, and never paste student names or marks.
+
+Which topic would you try this on first?
+
+#Teachers #AIatWork #Education
